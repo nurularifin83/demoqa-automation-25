@@ -38,7 +38,17 @@ public class BasePage {
     public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
+//            options.addArguments("--incognito");
+
+            // Mandatory for GitHub Actions / Linux CI
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--incognito");
+
+            // unique user profile to prevent "already in use" error
+            String tmpDir = System.getProperty("java.io.tmpdir") + "chrome_" + System.currentTimeMillis();
+            options.addArguments("--user-data-dir=" + tmpDir);
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();

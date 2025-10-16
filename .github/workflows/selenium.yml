@@ -11,21 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout code
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # 2️⃣ Setup Java
       - name: Set up Java 21
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Install dependencies
+      # 3️⃣ Install Google Chrome
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # 4️⃣ Install dependencies
+      - name: Install Maven dependencies
         run: mvn clean install -DskipTests
 
+      # 5️⃣ Run Selenium tests
       - name: Run Selenium tests
         run: mvn test -DsuiteXmlFile=sanity
+        env:
+          # Ensures Chrome works in GitHub Actions
+          JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF8"
+          CHROME_OPTS: "--headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu --incognito --user-data-dir=/tmp/chrome_$GITHUB_RUN_ID"
 
+      # 6️⃣ Upload ExtentReports
       - name: Upload ExtentReports
         uses: actions/upload-artifact@v4
         with:
