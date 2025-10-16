@@ -40,6 +40,14 @@ public class BasePage {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
 
+            // Add a unique user-data-dir for each run
+            String tmpDir = System.getProperty("java.io.tmpdir") + "selenium_" + System.currentTimeMillis();
+            options.addArguments("--user-data-dir=" + tmpDir);
+
+            // Recommended CI flags
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("firefox")){
