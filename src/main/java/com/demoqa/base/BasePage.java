@@ -52,6 +52,14 @@ public class BasePage {
                 options.addArguments("--user-data-dir=/tmp/chrome-" + System.currentTimeMillis());
             }
 
+            // Block ad ads
+            options.addArguments("--blink-settings=imagesEnabled=false"); // faster
+            options.addArguments("--disable-blink-features=AutomationControlled");
+            options.addArguments("--disable-popup-blocking");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-notifications");
+            options.addArguments("--disable-ads");
+
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("firefox")) {
