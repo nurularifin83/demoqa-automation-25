@@ -1,0 +1,38 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install browser dependencies (Playwright)
+        run: npx playwright install-deps
+
+      - name: Install browsers
+        run: npx playwright install
+
+      - name: Run tests
+        run: npx mocha tests/*.spec.js --reporter mochawesome --timeout=60000
+
+      - name: Upload mochawesome report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mochawesome-report
+          path: mochawesome-report
