@@ -37,7 +37,38 @@ public class BasePage {
         this.customWait = new CustomWait(driver, Duration.ofSeconds(configReader.getGlobalWaitValue()));
     }
 
-    public WebDriver getDriver(String browser){
+    public WebDriver getDriver(String browser) {
+        if (browser.equalsIgnoreCase(configReader.getBrowser())) {
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--incognito");
+
+            // unique data dir for GitHub Actions
+            String runId = System.getenv("GITHUB_RUN_ID");
+            if (runId != null) {
+                options.addArguments("--user-data-dir=/tmp/chrome_" + runId);
+            }
+
+            driver = new ChromeDriver(options);
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless");
+            driver = new FirefoxDriver(options);
+        } else {
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--headless=new");
+            driver = new EdgeDriver(options);
+        }
+
+        driver.manage().window().maximize();
+        return driver;
+    }
+
+
+    /*public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
 
@@ -66,7 +97,7 @@ public class BasePage {
             driver.manage().window().maximize();
         }
         return driver;
-    }
+    }*/
 
     public WebElement getLogo(){
         customWait.waitForVisibilityOfElement(logo);
