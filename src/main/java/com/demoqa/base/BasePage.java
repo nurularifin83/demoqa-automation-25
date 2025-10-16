@@ -11,7 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -54,9 +56,12 @@ public class BasePage {
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("firefox")){
-            driver = new FirefoxDriver();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless"); // headless for CI
             driver.manage().window().maximize();
         }else {
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--headless=new"); // headless for CI
             driver = new EdgeDriver();
             driver.manage().window().maximize();
         }
