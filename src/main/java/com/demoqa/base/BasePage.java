@@ -37,65 +37,22 @@ public class BasePage {
         this.customWait = new CustomWait(driver, Duration.ofSeconds(configReader.getGlobalWaitValue()));
     }
 
-    public WebDriver getDriver(String browser) {
-        if (browser.equalsIgnoreCase(configReader.getBrowser())) {
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless=new");
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--disable-gpu");
-            options.addArguments("--window-size=1920,1080");
-
-            // Unique user data dir for GitHub Actions
-            String runId = System.getenv("GITHUB_RUN_ID");
-            String tmpDir = System.getProperty("java.io.tmpdir");
-            options.addArguments("--user-data-dir=" + tmpDir + "/chrome-profile-" + (runId != null ? runId : System.currentTimeMillis()));
-
-            driver = new ChromeDriver(options);
-        } else if (browser.equalsIgnoreCase("firefox")) {
-            FirefoxOptions options = new FirefoxOptions();
-            options.addArguments("--headless");
-            driver = new FirefoxDriver(options);
-        } else {
-            EdgeOptions options = new EdgeOptions();
-            options.addArguments("--headless=new");
-            driver = new EdgeDriver(options);
-        }
-
-        driver.manage().window().maximize();
-        return driver;
-    }
-
-    /*public WebDriver getDriver(String browser){
+    public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
-
-            // CI friendly options
             options.addArguments("--incognito");
-            options.addArguments("--headless=new"); // headless mode for GitHub Actions
-            options.addArguments("--no-sandbox"); // required for Linux runners
-            options.addArguments("--disable-dev-shm-usage"); // avoid memory issues
-
-            // unique user data dir per run to avoid "already in use"
-            String runId = System.getenv("GITHUB_RUN_ID");
-            if (runId != null) {
-                options.addArguments("--user-data-dir=/tmp/chrome_" + runId);
-            }
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
-        } else if (browser.equalsIgnoreCase("firefox")){
-            FirefoxOptions options = new FirefoxOptions();
-            options.addArguments("--headless"); // headless for CI
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            driver = new FirefoxDriver();
             driver.manage().window().maximize();
-        }else {
-            EdgeOptions options = new EdgeOptions();
-            options.addArguments("--headless=new"); // headless for CI
+        } else {
             driver = new EdgeDriver();
             driver.manage().window().maximize();
         }
         return driver;
-    }*/
+    }
 
     public WebElement getLogo(){
         customWait.waitForVisibilityOfElement(logo);

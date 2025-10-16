@@ -943,3 +943,275 @@ Session ID: d4d7e3d19969d9411e2add9f460d7d59
 =2025-10-16 20:34:45 [TestNG-tests-1] INFO  - Clicked on delete button!
 =2025-10-16 20:34:45 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
 =2025-10-16 20:34:46 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:15:51 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-16 21:15:51 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-16 21:15:53 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:16:30 [TestNG-tests-1] ERROR - Failed to click on elements.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h5>...</h5> is not clickable at point (194, 433). Other element would receive the click: <iframe frameborder="0" src="https://46d613afe32bc7ceaaa184f38f2fc015.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [798cfafdaf92a80ba11f28d832c37855, clickElement {id=f.45D18F0D9643AF6CC81EDEF9ED61E4A5.d.304DA5AC7E351F33D45E14707F7ACADF.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56556/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (798cfafdaf92a80ba11f28d832c37855)] -> xpath: //div[@class='card-body']//h5[text()='Elements']]
+Session ID: 798cfafdaf92a80ba11f28d832c37855
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.demoqa.pages.HomePage.clickOnElements(HomePage.java:35)
+	at com.demoqa.tests.elements.CheckBoxPageTest.setUpPage(CheckBoxPageTest.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+=2025-10-16 21:16:30 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-16 21:16:31 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-16 21:16:31 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:16:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:17:04 [TestNG-tests-1] ERROR - Failed to click on elements.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h5>...</h5> is not clickable at point (194, 433). Other element would receive the click: <iframe frameborder="0" src="https://973896895c2a47b9ff99bf761a85044c.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a394ff8ca5de42610ba271a3bf2bdd45, clickElement {id=f.2E08678EC0F7A32D1493A7AA8969AAE9.d.2227FD7DC8F952EF7EF8A04AAF1C076C.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49270}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49270/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a394ff8ca5de42610ba271a3bf2bdd45)] -> xpath: //div[@class='card-body']//h5[text()='Elements']]
+Session ID: a394ff8ca5de42610ba271a3bf2bdd45
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.demoqa.pages.HomePage.clickOnElements(HomePage.java:35)
+	at com.demoqa.tests.elements.RadioButtonPageTest.testSetUp(RadioButtonPageTest.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+=2025-10-16 21:17:04 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-16 21:17:04 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => testRadioButton
+=2025-10-16 21:17:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:17:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:17:39 [TestNG-tests-1] ERROR - Failed to click on elements.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h5>...</h5> is not clickable at point (194, 433). Other element would receive the click: <iframe frameborder="0" src="https://616af2d5e254e15d5270542ce45f4f8e.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3a5e9da677410f81037d0919019c982, clickElement {id=f.FB46D4E672981B1C7465578F67F0E619.d.5952E6E72F77D075791BE7C897DE3673.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54851/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3a5e9da677410f81037d0919019c982)] -> xpath: //div[@class='card-body']//h5[text()='Elements']]
+Session ID: e3a5e9da677410f81037d0919019c982
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.demoqa.pages.HomePage.clickOnElements(HomePage.java:35)
+	at com.demoqa.tests.elements.TextBoxPageTest.setUpPage(TextBoxPageTest.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+=2025-10-16 21:17:39 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-16 21:17:39 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
+=2025-10-16 21:17:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:17:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:18:16 [TestNG-tests-1] ERROR - Failed to click on elements.
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h5>...</h5> is not clickable at point (194, 433). Other element would receive the click: <iframe frameborder="0" src="https://70abfac55510cd5e6f05a4714e7aef92.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cdb7df2f21544fd5a6bd873ffc7ee51, clickElement {id=f.688F76659B441B1D36BBEF0897246AB0.d.C775FEE7E9FA0DBA250FF775FC33BE3A.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55461/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1cdb7df2f21544fd5a6bd873ffc7ee51)] -> xpath: //div[@class='card-body']//h5[text()='Elements']]
+Session ID: 1cdb7df2f21544fd5a6bd873ffc7ee51
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.demoqa.pages.HomePage.clickOnElements(HomePage.java:35)
+	at com.demoqa.tests.elements.WebTablesPageTest.setUpPage(WebTablesPageTest.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+=2025-10-16 21:18:16 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-16 21:18:16 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
+=2025-10-16 21:18:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:19:20 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-16 21:19:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-16 21:19:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:19:28 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-16 21:19:28 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-16 21:19:28 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-16 21:19:29 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-16 21:19:32 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-16 21:19:32 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:19:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:19:38 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-16 21:19:38 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-16 21:19:39 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-16 21:19:39 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-16 21:19:39 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => testRadioButton
+=2025-10-16 21:19:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:19:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:19:48 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-16 21:19:48 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-16 21:19:49 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-16 21:19:49 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-16 21:19:50 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-16 21:19:51 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-16 21:19:51 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-16 21:19:51 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-16 21:19:52 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-16 21:19:52 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-16 21:19:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-16 21:19:59 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-16 21:19:59 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-16 21:19:59 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-16 21:19:59 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-16 21:19:59 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-16 21:20:04 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-16 21:20:05 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-16 21:20:05 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-16 21:20:05 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-16 21:20:05 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-16 21:20:05 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-16 21:20:06 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-16 21:20:06 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-16 21:20:07 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-16 21:20:08 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-16 21:20:09 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-16 21:20:09 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
+=2025-10-16 21:20:11 [TestNG-tests-1] INFO  - Closing the browser - Chrome
