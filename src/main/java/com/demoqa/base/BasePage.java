@@ -44,13 +44,12 @@ public class BasePage {
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-gpu");
-            options.addArguments("--incognito");
+            options.addArguments("--window-size=1920,1080");
 
-            // unique temp folder avoids “user data directory in use” errors
+            // Unique user data dir for GitHub Actions
             String runId = System.getenv("GITHUB_RUN_ID");
-            if (runId != null) {
-                options.addArguments("--user-data-dir=/tmp/chrome_" + runId);
-            }
+            String tmpDir = System.getProperty("java.io.tmpdir");
+            options.addArguments("--user-data-dir=" + tmpDir + "/chrome-profile-" + (runId != null ? runId : System.currentTimeMillis()));
 
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
