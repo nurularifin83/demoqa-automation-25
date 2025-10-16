@@ -38,7 +38,7 @@ public class BasePage {
     public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--incognito");
+//            options.addArguments("--incognito");
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
