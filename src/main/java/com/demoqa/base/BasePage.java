@@ -46,7 +46,7 @@ public class BasePage {
             options.addArguments("--disable-gpu");
             options.addArguments("--incognito");
 
-            // unique data dir for GitHub Actions
+            // unique temp folder avoids “user data directory in use” errors
             String runId = System.getenv("GITHUB_RUN_ID");
             if (runId != null) {
                 options.addArguments("--user-data-dir=/tmp/chrome_" + runId);
@@ -66,7 +66,6 @@ public class BasePage {
         driver.manage().window().maximize();
         return driver;
     }
-
 
     /*public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
