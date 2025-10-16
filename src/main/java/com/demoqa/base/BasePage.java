@@ -38,7 +38,18 @@ public class BasePage {
     public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--incognito");
+
+            // CI friendly options
+            options.addArguments("--incognito");
+            options.addArguments("--headless=new"); // headless mode for GitHub Actions
+            options.addArguments("--no-sandbox"); // required for Linux runners
+            options.addArguments("--disable-dev-shm-usage"); // avoid memory issues
+
+            // unique user data dir per run to avoid "already in use"
+            String runId = System.getenv("GITHUB_RUN_ID");
+            if (runId != null) {
+                options.addArguments("--user-data-dir=/tmp/chrome_" + runId);
+            }
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
