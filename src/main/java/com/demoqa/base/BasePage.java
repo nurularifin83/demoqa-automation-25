@@ -42,6 +42,13 @@ public class BasePage {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
 
+            options.addArguments("--disable-popup-blocking");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-notifications");
+            options.addArguments("--disable-ads");
+            options.addArguments("--disable-blink-features=AutomationControlled");
+            options.addArguments("--blink-settings=imagesEnabled=false"); // disable images for speed
+
             // Run headless only when on CI (GitHub Actions)
             if (System.getenv("HEADLESS") != null && System.getenv("HEADLESS").equalsIgnoreCase("true")) {
                 options.addArguments("--headless=new");
@@ -51,14 +58,6 @@ public class BasePage {
                 options.addArguments("--remote-allow-origins=*");
                 options.addArguments("--user-data-dir=/tmp/chrome-" + System.currentTimeMillis());
             }
-
-            // Block ad ads
-            options.addArguments("--blink-settings=imagesEnabled=false"); // faster
-            options.addArguments("--disable-blink-features=AutomationControlled");
-            options.addArguments("--disable-popup-blocking");
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-notifications");
-            options.addArguments("--disable-ads");
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
