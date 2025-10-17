@@ -42,6 +42,8 @@ public class BasePage {
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
 
+            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
+
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
