@@ -133,9 +133,17 @@ public class BaseTest {
 
         ExtentReportManager.getTest().log(Status.INFO, "Test Method Execution completed");
 
-        getLocalDriver().quit();
+        /*getLocalDriver().quit();
         localDriver.remove();
-        logger.info("Closing the browser - " + configReader.getBrowser());
+        logger.info("Closing the browser - " + configReader.getBrowser());*/
+
+        if (getLocalDriver() != null) {
+            getLocalDriver().quit();
+            localDriver.remove();
+            logger.info("Closing the browser - " + configReader.getBrowser());
+        } else {
+            logger.warn("Driver was null, skipping quit()");
+        }
     }
 
     @AfterSuite(alwaysRun = true)

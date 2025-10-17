@@ -1329,3 +1329,63 @@ Session ID: 1cdb7df2f21544fd5a6bd873ffc7ee51
 =2025-10-17 16:14:12 [main] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
 =2025-10-17 16:14:12 [main] INFO  - Clicked on submit button.
 =2025-10-17 16:14:13 [main] INFO  - Closing the browser - Chrome
+=2025-10-17 16:46:28 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 16:46:29 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 16:46:30 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 16:46:30 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-17 16:46:30 [TestNG-tests-1] WARN  - Driver was null, skipping quit()
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => testRadioButton
+=2025-10-17 16:46:31 [TestNG-tests-1] WARN  - Driver was null, skipping quit()
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
+=2025-10-17 16:46:31 [TestNG-tests-1] WARN  - Driver was null, skipping quit()
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-17 16:46:31 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
+=2025-10-17 16:46:31 [TestNG-tests-1] WARN  - Driver was null, skipping quit()
+=2025-10-17 17:00:11 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 17:00:11 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 17:00:14 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 17:00:18 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 17:00:18 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 17:00:18 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-17 17:00:23 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-17 17:00:23 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-17 17:00:24 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-17 17:00:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 17:00:31 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 17:00:31 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-17 17:00:31 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-17 17:00:36 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-17 17:00:36 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => testRadioButton
+=2025-10-17 17:00:36 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-17 17:00:38 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 17:00:42 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 17:00:42 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-17 17:00:42 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-17 17:00:46 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-17 17:00:47 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-17 17:00:47 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-17 17:00:47 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-17 17:00:47 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-17 17:00:47 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-17 17:00:48 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-17 17:00:49 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 17:00:55 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 17:00:55 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-17 17:00:55 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-17 17:00:59 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-17 17:01:00 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-17 17:01:00 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-17 17:01:00 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-17 17:01:00 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-17 17:01:00 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-17 17:01:01 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-17 17:01:01 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-17 17:01:01 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-17 17:01:02 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-17 17:01:02 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-17 17:01:02 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-17 17:01:03 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-17 17:01:03 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
+=2025-10-17 17:01:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
