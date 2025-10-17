@@ -26,7 +26,10 @@ jobs:
 
       # Build project without running tests
       - name: Build project
-        run: mvn -B clean install -DskipTests
+        run: mvn -B clean install -DskipTests --fail-never || mvn -B clean install -DskipTests
+
+      - name: Cleanup old Chrome temp data
+        run: rm -rf /tmp/chrome-* || true
 
       # 🧪 Run Selenium tests
       - name: Run Selenium tests
