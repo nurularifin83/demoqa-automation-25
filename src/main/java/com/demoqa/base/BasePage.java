@@ -18,6 +18,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
+import java.util.UUID;
 
 public class BasePage {
 
@@ -41,6 +42,8 @@ public class BasePage {
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
+
+            options.addArguments("--user-data-dir=" + System.getProperty("java.io.tmpdir") + "/chrome-" + UUID.randomUUID());
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();

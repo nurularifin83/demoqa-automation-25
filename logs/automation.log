@@ -1481,3 +1481,21 @@ Session ID: 1cdb7df2f21544fd5a6bd873ffc7ee51
 =2025-10-17 17:50:47 [TestNG-tests-1] INFO  - Clicked on delete button!
 =2025-10-17 17:50:47 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
 =2025-10-17 17:50:49 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-17 18:27:29 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 18:27:30 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 18:27:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 18:27:38 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 18:27:38 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 18:27:39 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-17 18:27:39 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-17 18:27:39 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-17 18:27:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-17 18:33:26 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 18:33:26 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 18:33:29 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-17 18:33:34 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 18:33:34 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 18:33:34 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-17 18:33:34 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-17 18:33:37 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-17 18:33:38 [TestNG-tests-1] INFO  - Closing the browser - Chrome
