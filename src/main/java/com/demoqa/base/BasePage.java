@@ -42,6 +42,15 @@ public class BasePage {
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
 
+            // ✅ Key fix — unique user data directory
+            String uniqueProfile = "/tmp/chrome-" + UUID.randomUUID();
+            options.addArguments("--user-data-dir=" + uniqueProfile);
+
+            // Optional: run headless in CI
+            if ("true".equalsIgnoreCase(System.getenv("CI"))) {
+                options.addArguments("--headless=new");
+            }
+
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
