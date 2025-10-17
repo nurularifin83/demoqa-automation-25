@@ -1,7 +1,6 @@
 package com.demoqa.tests.elements;
 
 import com.demoqa.basetest.BaseTest;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,10 +10,6 @@ public class TextBoxPageTest extends BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void setUpPage(){
         homePage.clickOnElements();
-        // Remove ads
-        ((JavascriptExecutor) driver).executeScript(
-                "document.querySelectorAll('iframe, .advertisement, [id*=\"google_ads_\"]').forEach(e => e.remove());"
-        );
     }
 
     @Test(groups = { "sanity1" })

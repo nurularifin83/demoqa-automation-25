@@ -38,35 +38,19 @@ public class BasePage {
     }
 
     public WebDriver getDriver(String browser){
-        ChromeOptions options = new ChromeOptions();
-        // Detect if running on CI (GitHub Actions)
-        boolean isCI = System.getenv("CI") != null && System.getenv("CI").equalsIgnoreCase("true");
-        boolean isHeadless = Boolean.parseBoolean(System.getProperty("HEADLESS", "false"));
+        if (browser.equalsIgnoreCase(configReader.getBrowser())){
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--incognito");
 
-        if (isCI || isHeadless) {
-            // ✅ Use headless & Linux-safe flags for CI/CD
-            options.addArguments("--headless=new");
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--disable-gpu");
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-infobars");
-            options.addArguments("--remote-allow-origins=*");
-        } else {
-            // ✅ Normal Chrome for local runs
-            options.addArguments("--start-maximized");
-            options.addArguments("--remote-allow-origins=*");
-            options.addArguments("--disable-notifications");
-        }
-
-        if (browser.equalsIgnoreCase("chrome") || browser.equalsIgnoreCase(configReader.getBrowser())){
             driver = new ChromeDriver(options);
+            driver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
+            driver.manage().window().maximize();
         } else {
             driver = new EdgeDriver();
+            driver.manage().window().maximize();
         }
-        driver.manage().window().maximize();
         return driver;
     }
 
