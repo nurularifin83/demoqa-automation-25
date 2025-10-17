@@ -40,17 +40,7 @@ public class BasePage {
     public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--incognito");
-
-            // Run headless only when on CI (GitHub Actions)
-            if (System.getenv("HEADLESS") != null && System.getenv("HEADLESS").equalsIgnoreCase("true")) {
-                options.addArguments("--headless=new");
-                options.addArguments("--no-sandbox");
-                options.addArguments("--disable-dev-shm-usage");
-                options.addArguments("--disable-gpu");
-                options.addArguments("--remote-allow-origins=*");
-                options.addArguments("--user-data-dir=/tmp/chrome-" + System.currentTimeMillis());
-            }
+            /*options.addArguments("--incognito");*/
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
