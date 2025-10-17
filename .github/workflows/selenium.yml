@@ -1,4 +1,4 @@
-name: Selenium Tests
+name: 🧪 Selenium Tests
 
 on:
   push:
@@ -11,30 +11,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧾 Checkout code
-        uses: actions/checkout@v3
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
 
       - name: ☕ Set up Java 21
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 21
 
-      - name: 🌐 Install Google Chrome and ChromeDriver
+      # 🧩 Install Chrome and Firefox
+      - name: 🌐 Install Google Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: 🧱 Build project (skip tests)
+      - name: 🦊 Install Firefox
+        uses: browser-actions/setup-firefox@v1
+
+      # 🪟 Install Microsoft Edge (Chromium)
+      - name: 🪟 Install Microsoft Edge
+        run: |
+          curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+          sudo install -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/
+          sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge.list'
+          sudo apt update
+          sudo apt install microsoft-edge-stable -y
+
+      # ⚙️ Build the project
+      - name: 🔧 Build project
         run: mvn -B clean install -DskipTests
 
-      - name: 🧪 Run Selenium tests
+      # 🧪 Run Selenium tests
+      - name: 🚀 Run Selenium Tests
         env:
           HEADLESS: true
-        run: |
-          echo "Running Selenium tests..."
-          mvn -B test -DsuiteXmlFile=sanity
+        run: mvn test -DsuiteXmlFile=sanity
 
-      - name: 📊 Upload ExtentReports
-        if: always()
+      # 📊 Upload Extent Report results
+      - name: 📤 Upload ExtentReports
         uses: actions/upload-artifact@v4
         with:
           name: selenium-test-report

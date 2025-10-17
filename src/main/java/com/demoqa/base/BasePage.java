@@ -40,9 +40,7 @@ public class BasePage {
 
     public WebDriver getDriver(String browser){
         ChromeOptions options = new ChromeOptions();
-        if (browser.equalsIgnoreCase(configReader.getBrowser())){
-            driver = new ChromeDriver(options);
-        } else if (browser.equalsIgnoreCase("firefox")) {
+        if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
         } else {
             driver = new EdgeDriver();
