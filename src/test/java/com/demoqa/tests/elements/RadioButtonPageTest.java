@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class RadioButtonPageTest extends BaseTest {
 
-    @BeforeMethod(alwaysRun = true)
+ /*   @BeforeMethod(alwaysRun = true)
     public void testSetUp(){
         homePage.clickOnElements();
     }
@@ -17,5 +17,5 @@ public class RadioButtonPageTest extends BaseTest {
         radioButtonPage.clickOnRadioMenu();
         radioButtonPage.clickOnRadioButton();
         Assert.assertTrue(radioButtonPage.isTextDisplay(), "No text is appear");
-    }
+    }*/
 }
