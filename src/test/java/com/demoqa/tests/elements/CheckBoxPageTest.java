@@ -12,7 +12,7 @@ public class CheckBoxPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"sanity112121"})
+    @Test(groups = {"sanity1"})
     public void testCheckBox(){
         checkBoxPage.clickOnCheckboxMenu();
         checkBoxPage.clickOnCheckboxHome();
