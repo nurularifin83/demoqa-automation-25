@@ -43,7 +43,7 @@ public class BasePage {
             ChromeOptions options = new ChromeOptions();
 //            options.addArguments("--incognito");
 
-            options.addArguments("--user-data-dir=" + System.getProperty("java.io.tmpdir") + "/chrome-" + UUID.randomUUID());
+//            options.addArguments("--user-data-dir=" + System.getProperty("java.io.tmpdir") + "/chrome-" + UUID.randomUUID());
 
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
