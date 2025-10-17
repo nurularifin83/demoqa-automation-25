@@ -70,18 +70,4 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 </plugin>
 </plugins>
 </build>
-
-    <repositories>
-        <repository>
-            <id>maven-central</id>
-            <url>https://repo.maven.apache.org/maven2</url>
-        </repository>
-
-        <!-- Backup mirror to avoid 500 errors -->
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/repositories/releases/</url>
-        </repository>
-    </repositories>
-
 </project>

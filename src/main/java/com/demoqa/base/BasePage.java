@@ -38,33 +38,16 @@ public class BasePage {
         this.customWait = new CustomWait(driver, Duration.ofSeconds(configReader.getGlobalWaitValue()));
     }
 
-    public WebDriver getDriver(String browser) {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--disable-infobars");
-        options.addArguments("--remote-allow-origins=*");
+    public WebDriver getDriver(String browser){
+        if (browser.equalsIgnoreCase(configReader.getBrowser())){
+            ChromeOptions options = new ChromeOptions();
 
-        // ✅ Make the user data directory unique per thread
-        String uniqueProfile = "/tmp/chrome-" + UUID.randomUUID();
-        options.addArguments("--user-data-dir=" + uniqueProfile);
-
-        // ✅ Run headless only in CI
-        if ("true".equalsIgnoreCase(System.getenv("CI")) || "true".equalsIgnoreCase(System.getenv("HEADLESS"))) {
-            options.addArguments("--headless=new");
-            options.addArguments("--window-size=1920,1080");
-        }
-
-        if (browser.equalsIgnoreCase("chrome") || browser.equalsIgnoreCase(configReader.getBrowser())) {
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
         } else {
             driver = new EdgeDriver();
         }
-
         driver.manage().window().maximize();
         return driver;
     }
