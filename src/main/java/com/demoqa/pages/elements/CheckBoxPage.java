@@ -51,7 +51,7 @@ public class CheckBoxPage extends BasePage {
 
     public void clickOnCheckboxHome(){
         try{
-            getCheckboxHome().click();
+            scriptUtils.clickElementJS(getCheckboxHome());
             LOGGER.info("Clicked on checkbox Home!");
         }catch (Exception e){
             LOGGER.error("Failed to click on the checkbox home!", e);
@@ -61,7 +61,7 @@ public class CheckBoxPage extends BasePage {
 
     public void clickOnCheckboxMenu(){
         try{
-            getCheckboxMenu().click();
+            scriptUtils.clickElementJS(getCheckboxMenu());
             LOGGER.info("Clicked on checkbox menu!");
         }catch (Exception e){
             LOGGER.error("Failed to click on the menu", e);
