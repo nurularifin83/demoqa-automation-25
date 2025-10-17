@@ -41,7 +41,7 @@ public class BasePage {
     public WebDriver getDriver(String browser){
         if (browser.equalsIgnoreCase(configReader.getBrowser())){
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--incognito");
+//            options.addArguments("--incognito");
 
             options.addArguments("--user-data-dir=" + System.getProperty("java.io.tmpdir") + "/chrome-" + UUID.randomUUID());
 
