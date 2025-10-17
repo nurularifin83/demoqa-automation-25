@@ -15,6 +15,7 @@ public class TextBoxPageTest extends BaseTest {
     @Test(groups = { "sanity1" })
     public void testTextBox(){
         textBoxPage.clickOnTextBoxMenu();
+        textBoxPage.scrollTextBoxForm();
         textBoxPage.enterUsername("Nurul Arifin");
         textBoxPage.enterUserEmail("arifin@gmail.com");
         textBoxPage.enterCurrentAddress("Dsn. Ujung Blang, Ajee pagar air.");

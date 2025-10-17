@@ -80,10 +80,13 @@ public class TextBoxPage extends BasePage {
     }
 
     // Page Actions
+    public void scrollTextBoxForm(){
+        scriptUtils.scrollToElement(textFieldContainer);
+    }
+
     public void clickOnSubmitButton(){
         try{
             scriptUtils.clickElementJS(getSubmitButton());
-            scriptUtils.scrollToElement(textFieldContainer);
             LOGGER.info("Clicked on submit button.");
         } catch (Exception e) {
             LOGGER.error("Failed to click on submit button.", e);

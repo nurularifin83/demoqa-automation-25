@@ -42,23 +42,6 @@ public class BasePage {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
 
-            options.addArguments("--disable-popup-blocking");
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-notifications");
-            options.addArguments("--disable-ads");
-            options.addArguments("--disable-blink-features=AutomationControlled");
-            options.addArguments("--blink-settings=imagesEnabled=false"); // disable images for speed
-
-            // Run headless only when on CI (GitHub Actions)
-            if (System.getenv("HEADLESS") != null && System.getenv("HEADLESS").equalsIgnoreCase("true")) {
-                options.addArguments("--headless=new");
-                options.addArguments("--no-sandbox");
-                options.addArguments("--disable-dev-shm-usage");
-                options.addArguments("--disable-gpu");
-                options.addArguments("--remote-allow-origins=*");
-                options.addArguments("--user-data-dir=/tmp/chrome-" + System.currentTimeMillis());
-            }
-
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
         } else if (browser.equalsIgnoreCase("firefox")) {
