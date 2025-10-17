@@ -38,13 +38,49 @@ public class BasePage {
         this.customWait = new CustomWait(driver, Duration.ofSeconds(configReader.getGlobalWaitValue()));
     }
 
-    public WebDriver getDriver(String browser){
-        ChromeOptions options = new ChromeOptions();
-        if (browser.equalsIgnoreCase("firefox")) {
-            driver = new FirefoxDriver();
-        } else {
-            driver = new EdgeDriver();
+    public WebDriver getDriver(String browser) {
+        if (browser.equalsIgnoreCase("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+
+            // unique profile for Chrome (avoid "user-data-dir" error)
+            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-infobars");
+            options.addArguments("--remote-allow-origins=*");
+            options.addArguments("--disable-notifications");
+
+            if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("HEADLESS") != null) {
+                options.addArguments("--headless=new");
+                options.addArguments("--window-size=1920,1080");
+            }
+
+            driver = new ChromeDriver(options);
+
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            FirefoxOptions options = new FirefoxOptions();
+            if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("HEADLESS") != null) {
+                options.addArguments("-headless");
+            }
+            options.addPreference("remote.active-protocols", 1);
+            driver = new FirefoxDriver(options);
+
+        } else if (browser.equalsIgnoreCase("edge")) {
+            EdgeOptions options = new EdgeOptions();
+            if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("HEADLESS") != null) {
+                options.addArguments("--headless=new");
+            }
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-infobars");
+            options.addArguments("--remote-allow-origins=*");
+            driver = new EdgeDriver(options);
         }
+
         driver.manage().window().maximize();
         return driver;
     }
