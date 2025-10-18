@@ -13,7 +13,7 @@ public class WebTablesPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups =  "sanity1")
+    @Test(groups =  "sanity1dsad")
     public void testWebTables(){
         webTables.clickOnWebTablesMenu();
         webTables.clickOnAddButton();

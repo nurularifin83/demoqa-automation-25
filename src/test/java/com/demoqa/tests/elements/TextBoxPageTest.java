@@ -12,7 +12,7 @@ public class TextBoxPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = { "sanity1" })
+    @Test(groups = { "sanity1dsd" })
     public void testTextBox(){
         textBoxPage.clickOnTextBoxMenu();
         textBoxPage.scrollTextBoxForm();
