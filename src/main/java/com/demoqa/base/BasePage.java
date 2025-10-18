@@ -103,7 +103,6 @@ public class BasePage {
                 options.addArguments("--window-size=1920,1080");
             }
 
-            System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
             driver = new EdgeDriver(options);
            /* driver = new EdgeDriver();*/
         }

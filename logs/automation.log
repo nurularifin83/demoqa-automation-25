@@ -1947,3 +1947,12 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-18 16:26:23 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
 =2025-10-18 16:26:23 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
 =2025-10-18 16:26:24 [TestNG-tests-1] INFO  - Closing the browser - edge
+=2025-10-18 16:29:11 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 16:29:11 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 16:29:14 [TestNG-tests-1] INFO  - Opening the browser - edge
+=2025-10-18 16:29:18 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 16:29:18 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 16:29:18 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 16:29:21 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 16:29:21 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 16:29:22 [TestNG-tests-1] INFO  - Closing the browser - edge
