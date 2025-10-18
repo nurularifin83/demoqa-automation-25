@@ -75,17 +75,17 @@ public class BasePage {
 
         } else if (browser.equalsIgnoreCase("edge")){
 
+            // 🪟 For local Windows, set driver manually
+            if (System.getProperty("os.name").toLowerCase().contains("windows")) {
+                System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            }
+
             EdgeOptions options = new EdgeOptions();
 
             // 🧠 Add user-data-dir only for CI or Linux
             if (System.getenv("GITHUB_ACTIONS") != null || System.getProperty("os.name").toLowerCase().contains("linux")) {
                 String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
                 options.addArguments("--user-data-dir=" + uniqueProfile);
-            }
-
-            // 🪟 For local Windows, set driver manually
-            if (System.getProperty("os.name").toLowerCase().contains("windows")) {
-                System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
             }
 
             options.addArguments("--no-sandbox");
