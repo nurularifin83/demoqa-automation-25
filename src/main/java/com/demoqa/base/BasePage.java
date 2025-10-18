@@ -76,8 +76,6 @@ public class BasePage {
         } else if (browser.equalsIgnoreCase("edge")){
 
             EdgeOptions options = new EdgeOptions();
-            /*String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
-            options.addArguments("--user-data-dir=" + uniqueProfile);*/
 
             // 🧠 Add user-data-dir only for CI or Linux
             if (System.getenv("GITHUB_ACTIONS") != null || System.getProperty("os.name").toLowerCase().contains("linux")) {
@@ -104,7 +102,6 @@ public class BasePage {
             }
 
             driver = new EdgeDriver(options);
-           /* driver = new EdgeDriver();*/
         }
 
         driver.manage().window().maximize();
