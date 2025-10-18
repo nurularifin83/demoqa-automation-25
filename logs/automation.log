@@ -1625,3 +1625,83 @@ Session ID: 1cdb7df2f21544fd5a6bd873ffc7ee51
 =2025-10-17 21:08:59 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
 =2025-10-17 21:08:59 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
 =2025-10-17 21:09:02 [TestNG-tests-1] INFO  - Closing the browser - firefox
+=2025-10-17 21:22:22 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 21:22:22 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 21:22:30 [TestNG-tests-1] INFO  - Opening the browser - firefox
+=2025-10-17 21:23:24 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-17 21:23:24 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 21:23:24 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-17 21:23:24 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-17 21:23:24 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-17 21:23:29 [TestNG-tests-1] INFO  - Closing the browser - firefox
+=2025-10-17 21:27:53 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-17 21:27:54 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-17 21:27:55 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-17 21:27:55 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:45:45 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:45:46 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:45:49 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:45:49 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:46:36 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:46:36 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:46:38 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:46:38 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:03 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:47:03 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:47:04 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:04 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:28 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:47:28 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:47:30 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:30 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:54 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:47:55 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:47:56 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:47:56 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:48:19 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:48:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:48:21 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:48:21 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:48:43 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:48:44 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:48:45 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:48:45 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:49:07 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:49:07 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:49:09 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:49:09 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:49:33 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:49:33 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:49:34 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:49:34 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:49:59 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:50:00 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:50:02 [TestNG-tests-1] INFO  - Opening the browser - chrome
+=2025-10-18 10:50:11 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 10:50:11 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:50:11 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 10:50:11 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 10:50:14 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:50:14 [TestNG-tests-1] INFO  - Closing the browser - chrome
+=2025-10-18 10:52:39 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 10:52:39 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 10:52:42 [TestNG-tests-1] INFO  - Opening the browser - chrome
+=2025-10-18 10:52:48 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 10:52:48 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:52:49 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 10:52:49 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 10:52:49 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 10:52:49 [TestNG-tests-1] INFO  - Closing the browser - chrome
+=2025-10-18 11:08:31 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 11:08:31 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 11:08:33 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 11:08:33 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 11:11:12 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 11:11:12 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 11:11:15 [TestNG-tests-1] INFO  - Opening the browser - chrome
+=2025-10-18 11:11:19 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 11:11:19 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 11:11:20 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 11:11:20 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 11:11:21 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 11:11:22 [TestNG-tests-1] INFO  - Closing the browser - chrome

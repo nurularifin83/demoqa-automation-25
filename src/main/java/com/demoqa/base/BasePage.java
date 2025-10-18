@@ -42,8 +42,11 @@ public class BasePage {
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
 
-            // unique profile for Chrome (avoid "user-data-dir" error)
-            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
+            // ✅ Only add user-data-dir in CI to avoid Windows crash
+            if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("CI") != null) {
+                options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
+            }
+
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-gpu");
@@ -52,6 +55,7 @@ public class BasePage {
             options.addArguments("--remote-allow-origins=*");
             options.addArguments("--disable-notifications");
 
+            // ✅ Run headless only in CI
             if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("HEADLESS") != null) {
                 options.addArguments("--headless=new");
                 options.addArguments("--window-size=1920,1080");
