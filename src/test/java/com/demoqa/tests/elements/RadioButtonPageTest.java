@@ -12,7 +12,7 @@ public class RadioButtonPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"sanity121"})
+    @Test(groups = {"sanity1"})
     public void testRadioButton(){
         radioButtonPage.clickOnRadioMenu();
         radioButtonPage.clickOnRadioButton();
