@@ -74,7 +74,10 @@ public class BasePage {
             driver = new FirefoxDriver(options);
 
         } else if (browser.equalsIgnoreCase("edge")){
-            System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            // Set driver path only if running on Windows
+            if (System.getProperty("os.name").toLowerCase().contains("win")) {
+                System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            }
             driver = new EdgeDriver();
         }
 
