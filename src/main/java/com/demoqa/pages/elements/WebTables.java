@@ -119,7 +119,7 @@ public class WebTables extends BasePage {
     // Actions
     public void clickOnDeleteButton(){
         try{
-            getDeleteButton().click();
+            scriptUtils.clickElementJS(getDeleteButton());
             LOGGER.info("Clicked on delete button!");
         }catch (Exception e){
             LOGGER.error("Failed to click on delete button!", e);
@@ -129,7 +129,7 @@ public class WebTables extends BasePage {
 
     public void clickOnEditButton(){
         try{
-            getEditButton().click();
+            scriptUtils.clickElementJS(getEditButton());
             LOGGER.info("Clicked on edit button!");
         }catch (Exception e){
             LOGGER.error("Failed to click on edit button!", e);
@@ -143,7 +143,7 @@ public class WebTables extends BasePage {
 
     public void clickOnSubmitButton(){
         try{
-            getSubmitButton().click();
+            scriptUtils.clickElementJS(getSubmitButton());
             LOGGER.info("Clicked on submit button!");
         }catch (Exception e){
             LOGGER.error("Failed to click on submit button!", e);
@@ -213,7 +213,7 @@ public class WebTables extends BasePage {
 
     public void clickOnAddButton(){
         try{
-            getAddNewRecordButton().click();
+            scriptUtils.clickElementJS(getAddNewRecordButton());
             LOGGER.info("Clicked on Add button!");
         }catch (Exception e){
             LOGGER.error("Failed to click on Add button!", e);
@@ -223,7 +223,7 @@ public class WebTables extends BasePage {
 
     public void clickOnWebTablesMenu(){
         try{
-            getWebTablesMenu().click();
+            scriptUtils.clickElementJS(getWebTablesMenu());
             LOGGER.info("Clicked on the menu!");
         }catch (Exception e){
             LOGGER.error("Failed to clicked on menu!", e);
