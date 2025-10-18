@@ -32,6 +32,7 @@ public class HomePage extends BasePage {
     // Page actions
     public void clickOnElements(){
         try{
+            scriptUtils.scrollToElement(getElements());
             scriptUtils.clickElementJS(getElements());
             LOGGER.info("Clicked on elements.");
         }catch (Exception e){
