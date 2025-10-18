@@ -74,11 +74,23 @@ public class BasePage {
             driver = new FirefoxDriver(options);
 
         } else if (browser.equalsIgnoreCase("edge")){
-            // Set driver path only if running on Windows
-            if (System.getProperty("os.name").toLowerCase().contains("win")) {
-                System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            EdgeOptions options = new EdgeOptions();
+            String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
+            options.addArguments("--user-data-dir=" + uniqueProfile);
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-infobars");
+            options.addArguments("--disable-notifications");
+
+            // Run headless in CI
+            if (System.getenv("HEADLESS") != null) {
+                options.addArguments("--headless=new");
+                options.addArguments("--window-size=1920,1080");
             }
-            driver = new EdgeDriver();
+
+            driver = new EdgeDriver(options);
         }
 
         driver.manage().window().maximize();
