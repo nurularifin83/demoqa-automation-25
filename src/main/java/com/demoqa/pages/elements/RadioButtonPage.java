@@ -51,7 +51,7 @@ public class RadioButtonPage extends BasePage {
 
     public void clickOnRadioButton(){
         try{
-            getImpressiveRadioButton().click();
+            scriptUtils.clickElementJS(getImpressiveRadioButton());
             LOGGER.info("Clicked on radio button!");
         }catch (Exception e){
             LOGGER.error("Failed to click on radio button!", e);
