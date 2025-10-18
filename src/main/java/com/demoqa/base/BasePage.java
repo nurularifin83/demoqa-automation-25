@@ -2,6 +2,7 @@ package com.demoqa.base;
 
 import com.demoqa.utils.ConfigReader;
 import com.demoqa.utils.CustomWait;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
@@ -17,6 +18,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.File;
 import java.time.Duration;
 import java.util.UUID;
 
@@ -71,23 +73,15 @@ public class BasePage {
             options.addPreference("remote.active-protocols", 1);
             driver = new FirefoxDriver(options);
 
-        } else if (browser.equalsIgnoreCase("edge")) {
-            EdgeOptions options = new EdgeOptions();
-            if (System.getenv("GITHUB_ACTIONS") != null || System.getenv("HEADLESS") != null) {
-                options.addArguments("--headless=new");
-            }
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--disable-gpu");
-            options.addArguments("--disable-extensions");
-            options.addArguments("--disable-infobars");
-            options.addArguments("--remote-allow-origins=*");
-            driver = new EdgeDriver(options);
+        } else if (browser.equalsIgnoreCase("edge")){
+            System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            driver = new EdgeDriver();
         }
 
         driver.manage().window().maximize();
         return driver;
     }
+
 
     public WebElement getLogo(){
         customWait.waitForVisibilityOfElement(logo);
