@@ -74,9 +74,22 @@ public class BasePage {
             driver = new FirefoxDriver(options);
 
         } else if (browser.equalsIgnoreCase("edge")){
+
             EdgeOptions options = new EdgeOptions();
-            String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
-            options.addArguments("--user-data-dir=" + uniqueProfile);
+            /*String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
+            options.addArguments("--user-data-dir=" + uniqueProfile);*/
+
+            // 🧠 Add user-data-dir only for CI or Linux
+            if (System.getenv("GITHUB_ACTIONS") != null || System.getProperty("os.name").toLowerCase().contains("linux")) {
+                String uniqueProfile = "/tmp/edge-profile-" + System.currentTimeMillis();
+                options.addArguments("--user-data-dir=" + uniqueProfile);
+            }
+
+            // 🪟 For local Windows, set driver manually
+            if (System.getProperty("os.name").toLowerCase().contains("windows")) {
+                System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
+            }
+
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-gpu");
@@ -90,7 +103,9 @@ public class BasePage {
                 options.addArguments("--window-size=1920,1080");
             }
 
+            System.setProperty("webdriver.edge.driver", "C:\\WebDrivers\\msedgedriver.exe");
             driver = new EdgeDriver(options);
+           /* driver = new EdgeDriver();*/
         }
 
         driver.manage().window().maximize();
