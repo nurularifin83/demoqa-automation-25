@@ -1965,3 +1965,46 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-18 16:40:31 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
 =2025-10-18 16:40:32 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
 =2025-10-18 16:40:33 [TestNG-tests-1] INFO  - Closing the browser - edge
+=2025-10-18 17:44:30 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:44:30 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:44:31 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:44:31 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:45:00 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:45:01 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:45:02 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:45:02 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:45:52 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:45:52 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:45:53 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:45:53 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:46:27 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:46:28 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:46:29 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:46:29 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:46:56 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:46:56 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:46:59 [TestNG-tests-1] INFO  - Opening the browser - edge
+=2025-10-18 17:47:02 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 17:47:02 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:47:02 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 17:47:03 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 17:47:03 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:47:03 [TestNG-tests-1] INFO  - Closing the browser - edge
+=2025-10-18 17:47:48 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:47:48 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:47:50 [TestNG-tests-1] INFO  - Opening the browser - edge
+=2025-10-18 17:47:54 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 17:47:54 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:47:54 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 17:47:54 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 17:47:54 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:47:55 [TestNG-tests-1] INFO  - Closing the browser - edge
+=2025-10-18 17:48:53 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 17:48:53 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 17:48:56 [TestNG-tests-1] INFO  - Opening the browser - edge
+=2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-18 17:49:25 [TestNG-tests-1] INFO  - Closing the browser - edge
