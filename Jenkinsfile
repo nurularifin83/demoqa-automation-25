@@ -40,6 +40,9 @@ pipeline {
                     alwaysLinkToLastBuild: true,
                     allowMissing: false
                 ])
+
+                // Archive HTML report for backup/download
+                archiveArtifacts artifacts: 'extent-reports/**', fingerprint: true
             }
         }
     }
