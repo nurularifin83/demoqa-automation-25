@@ -29,6 +29,19 @@ pipeline {
             }
         }
 
+         stage('Run Selenium Tests') {
+            steps {
+                script {
+                    if (isUnix()) {
+                        sh 'mvn test -DsuiteXmlFile=sanity'
+                    } else {
+                        bat 'mvn test -DsuiteXmlFile=sanity'
+                    }
+                }
+            }
+
+        }
+
         stage('Archive Test Reports') {
             steps {
                 archiveArtifacts artifacts: 'extent-reports/**', fingerprint: true
