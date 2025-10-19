@@ -23,22 +23,23 @@ pipeline {
             }
         }
 
-        stage('Run Selenium Tests') {
+         stage('Run Selenium Tests & Publish Reports') {
             steps {
-                script {
-                    if (isUnix()) {
-                        sh 'mvn test -DsuiteXmlFile=sanity'
-                    } else {
-                        bat 'mvn test -DsuiteXmlFile=sanity'
-                    }
-                }
-            }
-        }
+                // Run Maven tests
+                bat 'mvn test' // Use 'sh' if Linux agent
 
-        stage('Archive Test Reports') {
-            steps {
-                archiveArtifacts artifacts: 'extent-reports/**', fingerprint: true
-                junit '**/test-output/testng-results.xml'
+                // Publish JUnit XML reports (for Jenkins trends)
+                junit '**/target/surefire-reports/*.xml'
+
+                // Publish Extent HTML report (human-readable)
+                publishHTML(target: [
+                    reportName: 'Extent Report',
+                    reportDir: 'extent-reports',
+                    reportFiles: 'extent.html',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: false
+                ])
             }
         }
     }
