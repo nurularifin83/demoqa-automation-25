@@ -2008,3 +2008,33 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
 =2025-10-18 17:49:24 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
 =2025-10-18 17:49:25 [TestNG-tests-1] INFO  - Closing the browser - edge
+=2025-10-18 20:56:04 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 20:56:04 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 20:57:10 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 20:57:10 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 20:58:11 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-18 20:58:11 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => testRadioButton
+=2025-10-18 20:59:11 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-18 20:59:11 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
+=2025-10-18 21:00:11 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-18 21:00:11 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
+=2025-10-18 21:16:26 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 21:16:26 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 21:17:30 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 21:17:30 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 21:18:30 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-18 21:18:30 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => testRadioButton
+=2025-10-18 21:19:30 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-18 21:19:30 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
+=2025-10-18 21:20:31 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-18 21:20:31 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
+=2025-10-18 21:22:02 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity1
+=2025-10-18 21:22:02 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-18 21:23:03 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-18 21:23:03 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => testCheckBox
+=2025-10-18 21:24:04 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-18 21:24:04 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => testRadioButton
+=2025-10-18 21:25:04 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-18 21:25:04 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
+=2025-10-18 21:26:04 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-18 21:26:04 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
