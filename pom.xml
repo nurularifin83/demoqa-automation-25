@@ -63,13 +63,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <artifactId>maven-surefire-plugin</artifactId>
 <version>3.5.2</version>
 <configuration>
-    <!-- Generate JUnit XML reports for Jenkins -->
-    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-    <useFile>true</useFile>
-    <includes>
-        <include>**/*Test*.java</include> <!-- all test classes ending with Test -->
-    </includes>
-
 <suiteXmlFiles>
 <suiteXmlFile>testRunner/suiteFiles/${suiteXmlFile}.xml</suiteXmlFile>
 </suiteXmlFiles>
