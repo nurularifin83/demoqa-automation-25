@@ -25,12 +25,6 @@ pipeline {
 
         stage('Run Selenium Tests') {
             steps {
-                sh 'mvn test -DsuiteXmlFile=sanity'
-            }
-        }
-
-         stage('Run Selenium Tests') {
-            steps {
                 script {
                     if (isUnix()) {
                         sh 'mvn test -DsuiteXmlFile=sanity'
@@ -39,7 +33,6 @@ pipeline {
                     }
                 }
             }
-
         }
 
         stage('Archive Test Reports') {
