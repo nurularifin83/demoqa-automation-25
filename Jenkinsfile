@@ -29,7 +29,7 @@ pipeline {
                 bat 'mvn test' // Use 'sh' if Linux agent
 
                 // Publish JUnit XML reports (for Jenkins trends)
-                junit '**/target/surefire-reports/*.xml'
+                junit 'target/surefire-reports/*.xml'
 
                 // Publish Extent HTML report (human-readable)
                 publishHTML(target: [
@@ -41,7 +41,7 @@ pipeline {
                     allowMissing: false
                 ])
 
-                // Archive HTML report for backup/download
+                // Archive HTML REPORT for backup/download
                 archiveArtifacts artifacts: 'extent-reports/**', fingerprint: true
             }
         }
