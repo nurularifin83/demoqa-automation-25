@@ -26,7 +26,7 @@ pipeline {
          stage('Run Selenium Tests & Publish Reports') {
             steps {
                 // Run Maven tests
-                bat 'mvn test' // Use 'sh' if Linux agent
+                bat 'mvn test -DsuiteXmlFile=regression' // Use 'sh' if Linux agent
 
                 // Publish JUnit XML reports (for Jenkins trends)
                 junit '**/target/surefire-reports/*.xml'
