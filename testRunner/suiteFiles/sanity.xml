@@ -1,16 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Demoqa_Sanity_Suite" parallel="tests" thread-count="1">
-   <!-- <groups>
-        <run>
-            <include name="sanity1" />
-        </run>
-    </groups>
-
-    <listeners>
-        <listener class-name="com.demoqa.customelisteners.MyListener"></listener>
-    </listeners>
--->
-
     <listeners>
         <listener class-name="com.demoqa.customelisteners.MyListener"/>
     </listeners>
@@ -19,7 +8,7 @@
         <!-- Optional: define groups first -->
         <groups>
             <run>
-                <include name="sanity1"/>
+                <include name="sanity"/>
             </run>
         </groups>
 
@@ -28,6 +17,5 @@
             <package name="com.demoqa.tests.elements"/>
         </packages>
     </test>
-
 
 </suite>

@@ -2,6 +2,8 @@ package com.demoqa.pages.elements;
 
 import com.demoqa.base.BasePage;
 import com.demoqa.utils.JavaScriptUtils;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -49,13 +51,37 @@ public class WebTables extends BasePage {
     @FindBy(xpath = "(//div[@class='rt-tr-group'])[4]")
     private WebElement firstNameColumn;
 
-    @FindBy(xpath = "//span[@id='delete-record-4']")
+    @FindBy(xpath = "//span[@id='delete-record-3']")
     private WebElement deleteButton;
 
-    @FindBy(xpath = "//span[@id='edit-record-4']")
+    @FindBy(xpath = "//span[@id='edit-record-3']")
     private WebElement editButton;
 
+    @FindBy(xpath = "//input[@id='searchBox']")
+    private WebElement searchBox;
+
+    @FindBy(xpath = "//div[@class='rt-td' and text()='Vega']")
+    private WebElement searchResult;
+
+    @FindBy(xpath = "//div[@class='rt-noData' and text()='No rows found']")
+    private WebElement noRowsFound;
+
     // Getter
+    private WebElement getNoRowsFound(){
+        customWait.waitForVisibilityOfElement(noRowsFound);
+        return noRowsFound;
+    }
+
+    private WebElement getSearchResult(){
+        customWait.waitForVisibilityOfElement(searchResult);
+        return searchResult;
+    }
+
+    private WebElement getSearchBox(){
+        customWait.waitForVisibilityOfElement(searchBox);
+        return searchBox;
+    }
+
     private WebElement getEditButton(){
         customWait.waitForVisibilityOfElement(editButton);
         return editButton;
@@ -117,6 +143,32 @@ public class WebTables extends BasePage {
     }
 
     // Actions
+    public boolean isNoRowElement(){
+        try {
+            return !getDeleteButton().isDisplayed(); // visible → false, not visible → true
+        } catch (NoSuchElementException | TimeoutException e) {
+            return true; // element truly not found or not visible
+        }
+    }
+
+    public boolean isNoRowDisplay(){
+        return getNoRowsFound().isDisplayed();
+    }
+
+    public boolean isResultDisplay(){
+        return getSearchResult().isDisplayed();
+    }
+
+    public void enterSearchKeyword(String keyword){
+        try{
+            getSearchBox().sendKeys(keyword);
+            LOGGER.info("Enter keyword: {}", keyword);
+        }catch (Exception e){
+            LOGGER.error("Failed to input keyword!", e);
+            throw e;
+        }
+    }
+
     public void clickOnDeleteButton(){
         try{
             scriptUtils.clickElementJS(getDeleteButton());

@@ -12,10 +12,19 @@ public class RadioButtonPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"sanity1"})
-    public void testRadioButton(){
+    @Test(groups = {"sanity","regression"}, description = "Radio button impressive should be selected")
+    public void verifyRadioButtonImpressiveClicked(){
         radioButtonPage.clickOnRadioMenu();
-        radioButtonPage.clickOnRadioButton();
+        radioButtonPage.clickOnImpressiveRadioButton();
         Assert.assertTrue(radioButtonPage.isTextDisplay(), "No text is appear");
     }
+
+    @Test(groups = {"regression"}, description = "Radio button Yes should be selected")
+    public void verifyRadioButtonYesClicked(){
+        radioButtonPage.clickOnRadioMenu();
+        radioButtonPage.clickOnImpressiveRadioButton();
+        radioButtonPage.clickOnYesRadioButton();
+        Assert.assertTrue(radioButtonPage.isYesTextDisplay(), "No result to display");
+    }
+
 }

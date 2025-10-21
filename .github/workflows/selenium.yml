@@ -39,7 +39,7 @@ jobs:
       - name: 🚀 Run Selenium Tests
         env:
           HEADLESS: true
-        run: mvn test -DsuiteXmlFile=sanity
+        run: mvn test -DsuiteXmlFile=regression
 
       # 📊 Upload Extent Report results
       - name: 📤 Upload ExtentReports

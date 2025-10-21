@@ -12,7 +12,7 @@ public class TextBoxPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = { "sanity1" })
+    @Test(groups = { "sanity", "regression" }, description = "Verify textbox form with valid data")
     public void testTextBox(){
         textBoxPage.clickOnTextBoxMenu();
         textBoxPage.scrollTextBoxForm();
@@ -22,5 +22,14 @@ public class TextBoxPageTest extends BaseTest {
         textBoxPage.enterPermanentAddress("Jl. Kapten Yusuf No. 16");
         textBoxPage.clickOnSubmitButton();
         Assert.assertTrue(textBoxPage.isNameDisplayed(), "Element is not available.");
+    }
+
+    @Test(groups = {"regression"}, description = "Verify textbox form with empty data")
+    public void verifyFormValidations(){
+        textBoxPage.clickOnTextBoxMenu();
+        textBoxPage.scrollTextBoxForm();
+        textBoxPage.clickOnSubmitButton();
+        Assert.assertTrue(textBoxPage.isOutputEmpty(),
+                "❌ Expected 'Name' element to be hidden or not exist, but it appeared on the page! " + textBoxPage.getEmptyOutput().getText());
     }
 }

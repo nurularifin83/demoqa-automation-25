@@ -2038,3 +2038,454 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-18 21:25:04 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => testTextBox
 =2025-10-18 21:26:04 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
 =2025-10-18 21:26:04 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => testWebTables
+=2025-10-20 15:27:07 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity
+=2025-10-20 15:27:07 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-20 15:27:11 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => testCheckBox
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => testCheckBox
+=2025-10-20 15:27:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 15:27:18 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:27:22 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:27:22 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-20 15:27:22 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 15:27:22 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-20 15:27:22 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => testRadioButton
+=2025-10-20 15:27:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 15:27:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:27:28 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:27:28 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-20 15:27:28 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 15:27:29 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-20 15:27:30 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-20 15:27:30 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-20 15:27:31 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-20 15:27:31 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 15:27:31 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-20 15:27:32 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 15:27:33 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:27:38 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:27:38 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-20 15:27:38 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-20 15:27:38 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-20 15:27:40 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-20 15:27:41 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-20 15:27:41 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-20 15:27:42 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-20 15:27:42 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-20 15:27:42 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-20 15:27:42 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-20 15:27:42 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-20 15:27:43 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-20 15:27:43 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-20 15:27:43 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-20 15:27:43 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-20 15:27:43 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
+=2025-10-20 15:27:44 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 15:41:34 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 15:41:34 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 15:41:36 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:41:57 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:41:57 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 15:41:58 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 15:41:58 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 15:42:08 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => verifyFormValidations
+=2025-10-20 15:42:09 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 15:42:10 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 15:42:16 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 15:42:16 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 15:42:16 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 15:42:17 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 15:42:27 [TestNG-tests-1] INFO  - Test Failed: TextBoxPageTest => verifyFormValidations
+=2025-10-20 15:42:28 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:13:34 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 16:13:34 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 16:13:37 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:13:41 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:13:41 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:13:42 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:13:45 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:14:05 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:14:06 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:14:07 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:14:11 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:14:11 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:14:12 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:14:15 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:14:36 [TestNG-tests-1] INFO  - Test Failed: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:14:37 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:24:19 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 16:24:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 16:24:22 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:24:26 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:24:26 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:24:27 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:24:27 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:24:37 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:24:37 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:24:38 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:24:43 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:24:43 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:24:43 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:24:44 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:24:54 [TestNG-tests-1] INFO  - Test Failed: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:24:55 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:42:52 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 16:42:52 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 16:42:56 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:43:00 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:43:00 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:43:00 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:43:01 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:43:02 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:43:02 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:44:32 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 16:44:32 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 16:44:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:44:38 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:44:38 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:44:38 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:44:39 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-20 16:44:39 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:44:39 [TestNG-tests-1] INFO  - Test Skipped: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:44:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:44:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:44:45 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:44:45 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:44:45 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:44:45 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-20 16:44:45 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:44:46 [TestNG-tests-1] INFO  - Test Failed: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:44:47 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 16:50:04 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 16:50:04 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 16:50:06 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 16:50:11 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 16:50:11 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:50:12 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 16:50:12 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 16:50:12 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyFormValidations
+=2025-10-20 16:50:12 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 17:26:50 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 17:26:50 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 17:27:06 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 17:27:06 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 17:27:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 17:27:12 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 17:27:12 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:27:12 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 17:27:12 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:27:12 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:27:13 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:27:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 17:27:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 17:27:19 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 17:27:19 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:27:19 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 17:27:19 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:27:19 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:27:20 [TestNG-tests-1] INFO  - Test Failed: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:27:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 17:33:40 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 17:33:40 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 17:33:42 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 17:33:48 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 17:33:48 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:33:49 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 17:33:52 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:33:52 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:33:53 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:33:55 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 17:33:57 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 17:34:02 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 17:34:03 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:34:03 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 17:34:05 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:34:06 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 17:34:06 [TestNG-tests-1] INFO  - Test Failed: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 17:34:10 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 19:38:51 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 19:38:51 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 19:38:57 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 19:39:01 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 19:39:01 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 19:39:01 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 19:39:01 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 19:39:01 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 19:39:12 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-20 19:39:12 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 19:52:16 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 19:52:16 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 19:52:18 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 19:52:22 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 19:52:22 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-20 19:52:22 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 19:52:22 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 19:52:23 [TestNG-tests-1] INFO  - Click on button successfully!
+=2025-10-20 19:52:23 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-20 19:52:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 19:59:33 [main] INFO  - Starting Execution for Test Suite => Demoqa_Sanity_Suite with Tag => sanity
+=2025-10-20 19:59:33 [TestNG-tests-1] INFO  - Starting Execution for Test=> Sanity Tests
+=2025-10-20 19:59:35 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 19:59:42 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 19:59:42 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-20 19:59:42 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 19:59:43 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 19:59:43 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-20 19:59:43 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 19:59:44 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 19:59:48 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 19:59:48 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => testRadioButton
+=2025-10-20 19:59:49 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 19:59:49 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-20 19:59:49 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => testRadioButton
+=2025-10-20 19:59:50 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 19:59:51 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 19:59:58 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 19:59:58 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-20 19:59:58 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-20 19:59:58 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-20 19:59:59 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-20 20:00:01 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-20 20:00:01 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-20 20:00:02 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-20 20:00:02 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-20 20:00:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:00:11 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:00:15 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:00:15 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => testWebTables
+=2025-10-20 20:00:16 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-20 20:00:16 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-20 20:00:19 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-20 20:00:19 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-20 20:00:19 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-20 20:00:20 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-20 20:00:20 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-20 20:00:20 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-20 20:00:20 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-20 20:00:20 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-20 20:00:21 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-20 20:00:21 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-20 20:00:21 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-20 20:00:22 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-20 20:00:22 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => testWebTables
+=2025-10-20 20:00:24 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:01:01 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:01:02 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:01:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:01:36 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:01:36 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-20 20:01:36 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 20:01:36 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 20:01:36 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-20 20:01:37 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-20 20:01:37 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:18:44 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:18:47 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:19:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:20:05 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:20:06 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:20:18 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 20:20:41 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 20:20:42 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-20 20:20:43 [TestNG-tests-1] INFO  - Click on collapse button successfully!
+=2025-10-20 20:20:53 [TestNG-tests-1] INFO  - Test Skipped: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:20:54 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:20:56 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:21:00 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:21:00 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:21:00 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 20:21:00 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 20:21:01 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-20 20:21:01 [TestNG-tests-1] INFO  - Click on collapse button successfully!
+=2025-10-20 20:21:11 [TestNG-tests-1] INFO  - Test Failed: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:21:12 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:27:36 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:27:39 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:27:58 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:28:44 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:28:44 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:28:44 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-20 20:28:44 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-20 20:28:44 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-20 20:28:47 [TestNG-tests-1] INFO  - Click on collapse button successfully!
+=2025-10-20 20:28:47 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-20 20:28:48 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:32:47 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:32:48 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:32:50 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:33:03 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:33:03 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-10-20 20:33:03 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 20:33:03 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-20 20:33:03 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-10-20 20:33:04 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:45:21 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:45:21 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:45:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:46:14 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:46:15 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 20:46:56 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 20:46:57 [TestNG-tests-1] INFO  - Clicked on radio button!
+=2025-10-20 20:46:58 [TestNG-tests-1] INFO  - Clicked on Yes radio button!
+=2025-10-20 20:46:59 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 20:47:11 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 20:49:31 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 20:49:31 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 20:49:33 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Clicked on Yes radio button!
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 20:49:41 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 21:03:09 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 21:03:10 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 21:03:12 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 21:03:17 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 21:03:17 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 21:03:17 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-20 21:03:18 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-10-20 21:03:18 [TestNG-tests-1] INFO  - Clicked on Yes radio button!
+=2025-10-20 21:03:19 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-20 21:03:19 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 21:03:20 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 21:03:26 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 21:03:26 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithValidData
+=2025-10-20 21:03:26 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-20 21:03:27 [TestNG-tests-1] INFO  - Enter keyword: vega
+=2025-10-20 21:03:28 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifySearchWithValidData
+=2025-10-20 21:03:28 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-20 21:17:26 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-20 21:17:29 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-20 21:17:48 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-20 21:19:39 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-20 21:19:39 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-20 21:20:05 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-20 21:20:09 [TestNG-tests-1] INFO  - Enter keyword: vegadsads
+=2025-10-20 21:20:09 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-20 21:20:15 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 13:08:45 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:08:46 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:08:51 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:11:32 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:11:33 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-21 13:11:33 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:11:34 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-21 13:12:04 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-21 13:12:05 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-10-21 13:12:36 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 13:12:38 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:15:13 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:15:13 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-21 13:15:14 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:18:50 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:18:51 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:18:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:20:52 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:20:52 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-21 13:20:52 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:22:44 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-21 13:23:53 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:23:53 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:23:56 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:28:05 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:28:05 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-21 13:30:18 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:30:19 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-21 13:30:19 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-21 13:30:19 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-21 13:30:20 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-21 13:30:20 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-21 13:30:21 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-21 13:30:21 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-21 13:30:21 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-21 13:30:21 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-10-21 13:30:52 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 13:32:31 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:32:31 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:32:35 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:33:39 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:33:39 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-21 13:33:39 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:39:10 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-21 13:39:11 [TestNG-tests-1] INFO  - Enter first name: Nurul
+=2025-10-21 13:39:11 [TestNG-tests-1] INFO  - Enter last name: Arifin
+=2025-10-21 13:39:12 [TestNG-tests-1] INFO  - Enter user email: arifin@gmail.com
+=2025-10-21 13:39:12 [TestNG-tests-1] INFO  - Enter age: 27
+=2025-10-21 13:39:13 [TestNG-tests-1] INFO  - Enter salary: 7000000
+=2025-10-21 13:39:13 [TestNG-tests-1] INFO  - Enter department: QA
+=2025-10-21 13:39:13 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-21 13:39:14 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-10-21 13:39:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 13:42:33 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:42:33 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:42:36 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 13:44:05 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 13:44:05 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditData
+=2025-10-21 13:44:05 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 13:47:18 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-21 13:47:19 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-21 13:47:20 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-21 13:47:21 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-21 13:47:21 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyEditData
+=2025-10-21 13:47:52 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 13:58:42 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 13:58:42 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 13:58:45 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:01:26 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:01:26 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:01:27 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 14:01:28 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-21 14:01:28 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:01:59 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 14:02:01 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:04:27 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:04:28 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditData
+=2025-10-21 14:04:28 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 14:04:29 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-21 14:05:04 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-21 14:05:05 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-21 14:05:05 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-21 14:05:05 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyEditData
+=2025-10-21 14:05:36 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 14:14:50 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 14:14:51 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 14:14:55 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:19:18 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:19:18 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:19:19 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 14:19:19 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-21 14:25:19 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:25:50 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 14:25:52 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:29:15 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:29:15 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:29:15 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 14:32:04 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-21 14:32:41 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 14:32:41 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 14:32:45 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:35:10 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:35:10 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-21 14:45:16 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 14:45:16 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 14:45:20 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:48:54 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:48:54 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-21 14:48:55 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-21 14:48:56 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-21 14:48:57 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyFormValidations
+=2025-10-21 14:49:34 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-21 14:57:03 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-21 14:57:03 [TestNG-tests-1] INFO  - Starting Execution for Test=> Regression Tests
+=2025-10-21 14:57:06 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-21 14:58:31 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-21 14:58:31 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-21 14:58:31 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-21 14:58:31 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-21 15:03:14 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyDeleteData
+=2025-10-21 15:03:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome

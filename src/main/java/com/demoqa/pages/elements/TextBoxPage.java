@@ -2,6 +2,8 @@ package com.demoqa.pages.elements;
 
 import com.demoqa.base.BasePage;
 import com.demoqa.utils.JavaScriptUtils;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,7 +45,15 @@ public class TextBoxPage extends BasePage {
     @FindBy(xpath = "//div[@class='text-field-container']")
     private WebElement textFieldContainer;
 
+    @FindBy(xpath = "//div[@id='output']")
+    private WebElement emptyOutput;
+
     // Getter
+    public WebElement getEmptyOutput(){
+        customWait.waitForVisibilityOfElement(emptyOutput);
+        return emptyOutput;
+    }
+
     public WebElement getPermanentAddress(){
         customWait.waitForVisibilityOfElement(permanentAddress);
         return permanentAddress;
@@ -70,8 +80,12 @@ public class TextBoxPage extends BasePage {
     }
 
     public WebElement getIsNameDisplayed(){
-        customWait.waitForVisibilityOfElement(isNameDisplayed);
-        return isNameDisplayed;
+        try{
+            customWait.waitForVisibilityOfElement(isNameDisplayed);
+            return isNameDisplayed;
+        }catch (NoSuchElementException | TimeoutException e){
+            return null;
+        }
     }
 
     public WebElement getSubmitButton(){
@@ -80,6 +94,17 @@ public class TextBoxPage extends BasePage {
     }
 
     // Page Actions
+    public boolean isOutputEmpty() {
+        try {
+            // Wait until the element is present in DOM (not necessarily visible)
+            String text = getEmptyOutput().getText().trim();
+            return text.isEmpty();
+        } catch (NoSuchElementException | TimeoutException e) {
+            // Element not found or not yet loaded = considered empty
+            return true;
+        }
+    }
+
     public void scrollTextBoxForm(){
         scriptUtils.scrollToElement(textFieldContainer);
     }

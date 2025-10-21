@@ -2,10 +2,11 @@ package com.demoqa.pages.elements;
 
 import com.demoqa.base.BasePage;
 import com.demoqa.utils.JavaScriptUtils;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
 
 public class CheckBoxPage extends BasePage {
 
@@ -28,7 +29,47 @@ public class CheckBoxPage extends BasePage {
     @FindBy(xpath = "//label[@for='tree-node-home']")
     private WebElement checkboxHome;
 
+    @FindBy(xpath = "//div[@id='result']")
+    private WebElement noOutput;
+
+    @FindBy(xpath = "//button[@class='rct-option rct-option-expand-all']")
+    private WebElement buttonExpand;
+
+    @FindBy(xpath = "//button[@class='rct-option rct-option-collapse-all']")
+    private WebElement buttonCollapse;
+
+    @FindBy(xpath = "(//li[@class='rct-node rct-node-parent rct-node-expanded'])[1]")
+    private WebElement expandBox;
+
+    @FindBy(xpath = "(//li[@class='rct-node rct-node-parent rct-node-collapsed'])[1]")
+    private WebElement collapseBox;
+
     // Getter
+    public WebElement getCollapseBox(){
+        customWait.waitForVisibilityOfElement(collapseBox);
+        return collapseBox;
+    }
+
+    public WebElement getExpandBox(){
+        customWait.waitForVisibilityOfElement(expandBox);
+        return expandBox;
+    }
+
+    public WebElement getButtonCollapse(){
+        customWait.waitForVisibilityOfElement(buttonCollapse);
+        return buttonCollapse;
+    }
+
+    public WebElement getButtonExpand(){
+        customWait.waitForVisibilityOfElement(buttonExpand);
+        return buttonExpand;
+    }
+
+    public WebElement getNoOutput(){
+        customWait.waitForVisibilityOfElement(noOutput);
+        return noOutput;
+    }
+
     public WebElement getResult(){
         customWait.waitForVisibilityOfElement(result);
         return result;
@@ -45,7 +86,43 @@ public class CheckBoxPage extends BasePage {
     }
 
     // Actions
-    public boolean isResultDisplay(){
+    public boolean isCollapseBoxDisplay(){
+        return getCollapseBox().isDisplayed();
+    }
+
+    public boolean isExpandBoxDisplay(){
+        return getExpandBox().isDisplayed();
+    }
+
+    public void clickOnCollapseButton(){
+        try {
+            scriptUtils.clickElementJS(getButtonCollapse());
+            LOGGER.info("Click on collapse button successfully!");
+        } catch (Exception e) {
+            LOGGER.error("Failed when try to click on collapse button", e);
+            throw e;
+        }
+    }
+
+    public void clickOnExpandButton(){
+        try {
+            scriptUtils.clickElementJS(getButtonExpand());
+            LOGGER.info("Click on expand button successfully!");
+        } catch (Exception e) {
+            LOGGER.error("Failed when try to click on expand button", e);
+            throw e;
+        }
+    }
+
+    public boolean isResultNotDisplay(){
+        try {
+            return !getNoOutput().isDisplayed();
+        } catch (NoSuchElementException e) {
+            return true; // Element truly doesn’t exist
+        }
+    }
+
+    public boolean isCheckboxChecked(){
         return getCheckboxMenu().isDisplayed();
     }
 
