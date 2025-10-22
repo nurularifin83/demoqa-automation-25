@@ -66,7 +66,15 @@ public class WebTables extends BasePage {
     @FindBy(xpath = "//div[@class='rt-noData' and text()='No rows found']")
     private WebElement noRowsFound;
 
+    @FindBy(xpath = "//h1[text()='Web Tables']")
+    private WebElement mainTitle;
+
     // Getter
+    private WebElement getMainTitle(){
+        customWait.waitForVisibilityOfElement(mainTitle);
+        return mainTitle;
+    }
+
     private WebElement getNoRowsFound(){
         customWait.waitForVisibilityOfElement(noRowsFound);
         return noRowsFound;
@@ -143,6 +151,10 @@ public class WebTables extends BasePage {
     }
 
     // Actions
+    public boolean isMainTitleDisplay(){
+        return getMainTitle().isDisplayed();
+    }
+
     public boolean isNoRowElement(){
         try {
             return !getDeleteButton().isDisplayed(); // visible → false, not visible → true

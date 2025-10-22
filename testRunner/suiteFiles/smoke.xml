@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demoqa_Smoke_Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="com.demoqa.customelisteners.MyListener"/>
+    </listeners>
+
+    <test name="Smoke Tests">
+        <!-- Optional: define groups first -->
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <!-- Dynamically scan all classes in package -->
+        <packages>
+            <package name="com.demoqa.tests.elements"/>
+        </packages>
+    </test>
+
+</suite>

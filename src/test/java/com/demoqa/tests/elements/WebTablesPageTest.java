@@ -1,7 +1,6 @@
 package com.demoqa.tests.elements;
 
 import com.demoqa.basetest.BaseTest;
-import com.demoqa.pages.elements.WebTables;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -14,7 +13,7 @@ public class WebTablesPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups =  {"sanity","regression"}, description = "Verify add user with valid data")
+    @Test(groups = {"smoke", "sanity","regression"}, description = "Verify add user with valid data")
     public void verifyAddData(){
         webTables.clickOnWebTablesMenu();
         webTables.clickOnAddButton();
@@ -28,7 +27,7 @@ public class WebTablesPageTest extends BaseTest {
         Assert.assertTrue(webTables.isFirstNameDisplay(),"No data yet!");
     }
 
-    @Test(groups =   {"sanity","regression"}, description = "Verify edit user with valid data")
+    @Test(groups = {"sanity","regression"}, description = "Verify edit user with valid data")
     public void verifyEditData(){
         webTables.clickOnWebTablesMenu();
         webTables.clickOnEditButton();

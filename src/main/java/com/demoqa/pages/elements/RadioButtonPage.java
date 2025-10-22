@@ -31,7 +31,15 @@ public class RadioButtonPage extends BasePage {
     @FindBy(xpath = "//label[@for='yesRadio' and text()='Yes']")
     private WebElement yesText;
 
+    @FindBy(xpath = "//h1[text()='Radio Button']")
+    private WebElement mainTitle;
+
     // getter
+    private WebElement getMainTitle(){
+        customWait.waitForVisibilityOfElement(mainTitle);
+        return mainTitle;
+    }
+
     private WebElement getYesText(){
         customWait.waitForVisibilityOfElement(yesText);
         return yesText;
@@ -53,6 +61,10 @@ public class RadioButtonPage extends BasePage {
     }
 
     // Actions
+    public boolean isMainTitleDisplay(){
+        return getMainTitle().isDisplayed();
+    }
+
     public boolean isYesTextDisplay(){
         return getYesText().isDisplayed();
     }

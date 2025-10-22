@@ -5,6 +5,12 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch: # 👈 manual trigger option
+    inputs:
+      run_regression:
+        description: 'Run regression tests?'
+        required: false
+        default: 'false'
 
 jobs:
   test:
@@ -35,11 +41,36 @@ jobs:
       - name: 🔧 Build project
         run: mvn -B clean install -DskipTests
 
-      # 🧪 Run Selenium tests
-      - name: 🚀 Run Selenium Tests
+      # 🧠 Run Smoke Tests
+      - name: 🔥 Run Smoke Tests
+        env:
+           HEADLESS: true
+        run: |
+             echo "Running Smoke Suite..."
+             mvn test -DsuiteXmlFile=smoke || exit 1
+
+      # 🧪 Run Sanity Tests
+      - name: 🧩 Run Sanity Tests
         env:
           HEADLESS: true
-        run: mvn test -DsuiteXmlFile=regression
+        run: |
+          echo "Running Sanity Suite..."
+          mvn test -DsuiteXmlFile=sanity || exit 1
+
+      # 🧬 Run Regression Tests (manual trigger only)
+      - name: 🧬 Run Regression Tests
+        if: ${{ github.event.inputs.run_regression == 'true' }}
+        env:
+          HEADLESS: true
+        run: |
+          echo "Running Regression Suite..."
+          mvn test -DsuiteXmlFile=regression
+
+#       # 🧪 Run Selenium tests
+#      - name: 🚀 Run Selenium Tests
+#        env:
+#          HEADLESS: true
+#        run: mvn test -DsuiteXmlFile=regression
 
       # 📊 Upload Extent Report results
       - name: 📤 Upload ExtentReports

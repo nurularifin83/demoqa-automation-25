@@ -2489,3 +2489,44 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-21 14:58:31 [TestNG-tests-1] INFO  - Clicked on delete button!
 =2025-10-21 15:03:14 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyDeleteData
 =2025-10-21 15:03:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-22 20:11:54 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-10-22 20:11:54 [TestNG-tests-1] INFO  - Starting Execution for Test=> Smoke Tests
+=2025-10-22 20:12:05 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-22 20:12:13 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-22 20:12:13 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-22 20:12:13 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-22 20:12:17 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-22 20:12:18 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-22 20:12:19 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-22 20:12:20 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-22 20:12:20 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-22 20:12:20 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-22 20:12:21 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-22 20:24:24 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-10-22 20:24:25 [TestNG-tests-1] INFO  - Starting Execution for Test=> Smoke Tests
+=2025-10-22 20:24:29 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-22 20:25:10 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-22 20:25:10 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-22 20:25:11 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-22 20:25:14 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-22 20:25:14 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-22 20:25:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-22 20:25:19 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-22 20:25:24 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-22 20:25:24 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-22 20:25:25 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-22 20:25:28 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-22 20:25:28 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-22 20:25:39 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-22 20:25:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-22 20:25:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-22 20:25:46 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-22 20:25:46 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => testTextBox
+=2025-10-22 20:25:47 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-22 20:25:54 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-22 20:25:54 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-22 20:25:55 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-22 20:25:55 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-22 20:25:55 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-22 20:25:56 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
+=2025-10-22 20:25:57 [TestNG-tests-1] INFO  - Closing the browser - Chrome

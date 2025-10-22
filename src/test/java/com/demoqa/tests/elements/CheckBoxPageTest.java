@@ -12,10 +12,16 @@ public class CheckBoxPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"sanity", "regression"}, description = "Checkbox should be checked")
+    @Test(groups = {"smoke", "sanity", "regression"}, description = "Checkbox should be checked")
     public void verifyCheckboxChecked(){
+        // Step 1: Open checkbox page
         checkBoxPage.clickOnCheckboxMenu();
+        Assert.assertTrue(checkBoxPage.isMainTitleDisplay(), "Checkbox page not displayed!");
+
+        // Step 2: Checkbox checked
         checkBoxPage.clickOnCheckboxHome();
+
+        // Step 3: Verify checkbox checked successfully
         Assert.assertTrue(checkBoxPage.isCheckboxChecked(), "Checkbox should be checked");
     }
 

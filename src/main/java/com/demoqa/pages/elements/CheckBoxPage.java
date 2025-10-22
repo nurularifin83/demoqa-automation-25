@@ -44,7 +44,15 @@ public class CheckBoxPage extends BasePage {
     @FindBy(xpath = "(//li[@class='rct-node rct-node-parent rct-node-collapsed'])[1]")
     private WebElement collapseBox;
 
+    @FindBy(xpath = "//h1[text()='Check Box']")
+    private WebElement mainTitle;
+
     // Getter
+    public WebElement getMainTitle(){
+        customWait.waitForVisibilityOfElement(mainTitle);
+        return mainTitle;
+    }
+
     public WebElement getCollapseBox(){
         customWait.waitForVisibilityOfElement(collapseBox);
         return collapseBox;
@@ -86,6 +94,10 @@ public class CheckBoxPage extends BasePage {
     }
 
     // Actions
+    public boolean isMainTitleDisplay(){
+        return getMainTitle().isDisplayed();
+    }
+
     public boolean isCollapseBoxDisplay(){
         return getCollapseBox().isDisplayed();
     }

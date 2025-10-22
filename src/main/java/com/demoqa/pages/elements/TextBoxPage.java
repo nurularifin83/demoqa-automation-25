@@ -48,7 +48,15 @@ public class TextBoxPage extends BasePage {
     @FindBy(xpath = "//div[@id='output']")
     private WebElement emptyOutput;
 
+    @FindBy(xpath = "//h1[text()='Text Box']")
+    private WebElement mainTitle;
+
     // Getter
+    public WebElement getMainTitle(){
+        customWait.waitForVisibilityOfElement(mainTitle);
+        return mainTitle;
+    }
+
     public WebElement getEmptyOutput(){
         customWait.waitForVisibilityOfElement(emptyOutput);
         return emptyOutput;
@@ -94,6 +102,10 @@ public class TextBoxPage extends BasePage {
     }
 
     // Page Actions
+    public boolean isMainTitleDisplay(){
+        return getMainTitle().isDisplayed();
+    }
+
     public boolean isOutputEmpty() {
         try {
             // Wait until the element is present in DOM (not necessarily visible)

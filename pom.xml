@@ -10,7 +10,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <maven.compiler.source>21</maven.compiler.source>
 <maven.compiler.target>21</maven.compiler.target>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<suiteXmlFile>regression</suiteXmlFile>
 </properties>
 <dependencies>
 <dependency>
@@ -63,6 +62,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <artifactId>maven-surefire-plugin</artifactId>
 <version>3.5.2</version>
 <configuration>
+<!--!Run project dynamic-->
 <suiteXmlFiles>
 <suiteXmlFile>testRunner/suiteFiles/${suiteXmlFile}.xml</suiteXmlFile>
 </suiteXmlFiles>

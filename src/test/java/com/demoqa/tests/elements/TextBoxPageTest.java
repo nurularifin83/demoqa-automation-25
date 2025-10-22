@@ -12,9 +12,11 @@ public class TextBoxPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = { "sanity", "regression" }, description = "Verify textbox form with valid data")
+    @Test(groups = { "smoke","sanity", "regression" }, description = "Verify textbox form with valid data")
     public void testTextBox(){
+        // Step 1: Open login page
         textBoxPage.clickOnTextBoxMenu();
+        Assert.assertTrue(textBoxPage.isMainTitleDisplay(), "Text Box not displayed!");
         textBoxPage.scrollTextBoxForm();
         textBoxPage.enterUsername("Nurul Arifin");
         textBoxPage.enterUserEmail("arifin@gmail.com");
