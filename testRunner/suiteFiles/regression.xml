@@ -8,7 +8,7 @@
         <!-- Optional: define groups first -->
         <groups>
             <run>
-                <include name="regression"/>
+                <include name="regression1"/>
             </run>
         </groups>
 

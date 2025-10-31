@@ -2,10 +2,7 @@ package com.demoqa.pages.elements;
 
 import com.demoqa.base.BasePage;
 import com.demoqa.utils.JavaScriptUtils;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -70,57 +67,57 @@ public class WebTables extends BasePage {
     private WebElement mainTitle;
 
     // Getter
-    private WebElement getMainTitle(){
+    public WebElement getMainTitle(){
         customWait.waitForVisibilityOfElement(mainTitle);
         return mainTitle;
     }
 
-    private WebElement getNoRowsFound(){
+    public WebElement getNoRowsFound(){
         customWait.waitForVisibilityOfElement(noRowsFound);
         return noRowsFound;
     }
 
-    private WebElement getSearchResult(){
+    public WebElement getSearchResult(){
         customWait.waitForVisibilityOfElement(searchResult);
         return searchResult;
     }
 
-    private WebElement getSearchBox(){
+    public WebElement getSearchBox(){
         customWait.waitForVisibilityOfElement(searchBox);
         return searchBox;
     }
 
-    private WebElement getEditButton(){
+    public WebElement getEditButton(){
         customWait.waitForVisibilityOfElement(editButton);
         return editButton;
     }
 
-    private WebElement getDeleteButton(){
+    public WebElement getDeleteButton(){
         customWait.waitForVisibilityOfElement(deleteButton);
         return deleteButton;
     }
 
-    private WebElement getFirstNameColumn(){
+    public WebElement getFirstNameColumn(){
         customWait.waitForVisibilityOfElement(firstNameColumn);
         return firstNameColumn;
     }
 
-    private WebElement getSubmitButton(){
+    public WebElement getSubmitButton(){
         customWait.waitForVisibilityOfElement(submitButton);
         return submitButton;
     }
 
-    private WebElement getDepartment(){
+    public WebElement getDepartment(){
         customWait.waitForVisibilityOfElement(department);
         return department;
     }
 
-    private WebElement getSalary(){
+    public WebElement getSalary(){
         customWait.waitForVisibilityOfElement(salary);
         return salary;
     }
 
-    private WebElement getAge(){
+    public WebElement getAge(){
         customWait.waitForVisibilityOfElement(age);
         return age;
     }
@@ -135,22 +132,40 @@ public class WebTables extends BasePage {
         return lastName;
     }
 
-    private WebElement getFirstName(){
+    public WebElement getFirstName(){
         customWait.waitForVisibilityOfElement(firstName);
         return firstName;
     }
 
-    private WebElement getAddNewRecordButton(){
+    public WebElement getAddNewRecordButton(){
         customWait.waitForVisibilityOfElement(addNewRecordButton);
         return addNewRecordButton;
     }
 
-    private WebElement getWebTablesMenu(){
+    public WebElement getWebTablesMenu(){
         customWait.waitForVisibilityOfElement(webTablesMenu);
         return webTablesMenu;
     }
 
     // Actions
+    public boolean isAgeInvalid() {
+        return isFieldInvalid(getAge());
+    }
+
+    public boolean isSalaryInvalid() {
+        return isFieldInvalid(getSalary());
+    }
+
+    public boolean isEmailInvalid() {
+        return isFieldInvalid(getUserEmail());
+    }
+
+    public boolean isFieldInvalid(WebElement element){
+        Boolean isValid = (Boolean) ((JavascriptExecutor) driver)
+                .executeScript("return arguments[0].checkValidity();", element);
+        return isValid == null || !isValid ;
+    }
+
     public boolean isMainTitleDisplay(){
         return getMainTitle().isDisplayed();
     }
@@ -215,12 +230,22 @@ public class WebTables extends BasePage {
         }
     }
 
-    public void enterDepartment(String department){
+    public void enterData(String firstName, String lastName, String email, String age, String salary, String department){
         try{
+            getFirstName().sendKeys(firstName);
+            getLastName().sendKeys(lastName);
+            getUserEmail().sendKeys(email);
+            getAge().sendKeys(age);
+            getSalary().sendKeys(salary);
             getDepartment().sendKeys(department);
-            LOGGER.info("Enter department: {}", department);
+            LOGGER.info("Enter First Name: {}", firstName);
+            LOGGER.info("Enter Last Name: {}", lastName);
+            LOGGER.info("Enter Email: {}", email);
+            LOGGER.info("Enter Age: {}", age);
+            LOGGER.info("Enter Salary: {}", salary);
+            LOGGER.info("Enter Department: {}", department);
         }catch (Exception e){
-            LOGGER.error("Failed input department!", e);
+            LOGGER.error("Fail to input data!", e);
             throw e;
         }
     }
@@ -228,9 +253,9 @@ public class WebTables extends BasePage {
     public void enterSalary(String salary){
         try{
             getSalary().sendKeys(salary);
-            LOGGER.info("Enter salary: {}", salary);
+            LOGGER.info("Enter user salary: {}", salary);
         }catch (Exception e){
-            LOGGER.error("Failed input salary!", e);
+            LOGGER.error("Failed input user salary!", e);
             throw e;
         }
     }
@@ -238,9 +263,9 @@ public class WebTables extends BasePage {
     public void enterAge(String age){
         try{
             getAge().sendKeys(age);
-            LOGGER.info("Enter age: {}", age);
+            LOGGER.info("Enter user age: {}", age);
         }catch (Exception e){
-            LOGGER.error("Failed input age!", e);
+            LOGGER.error("Failed input user age!", e);
             throw e;
         }
     }
@@ -261,16 +286,6 @@ public class WebTables extends BasePage {
             LOGGER.info("Enter last name: {}", lastName);
         }catch (Exception e){
             LOGGER.error("Failed input last name!", e);
-            throw e;
-        }
-    }
-
-    public void enterFirstName(String name){
-        try{
-            getFirstName().sendKeys(name);
-            LOGGER.info("Enter first name: {}", name);
-        }catch (Exception e){
-            LOGGER.error("Failed input first name!", e);
             throw e;
         }
     }

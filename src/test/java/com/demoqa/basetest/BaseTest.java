@@ -76,7 +76,7 @@ public class BaseTest {
     @BeforeTest(alwaysRun = true)
     public void setUpTest(ITestContext context){
         String testName = context.getName();
-        logger.info("Starting Execution for Test=> "+testName);
+        logger.info("Starting Execution for Test => "+testName);
         ExtentReportManager.getReport().setSystemInfo("Test Name", testName);
     }
 

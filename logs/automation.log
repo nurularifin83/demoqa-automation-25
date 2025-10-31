@@ -2530,3 +2530,362 @@ Session ID: 9b6d0a732697366996164f3f7dd872a0
 =2025-10-22 20:25:55 [TestNG-tests-1] INFO  - Clicked on submit button.
 =2025-10-22 20:25:56 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => testTextBox
 =2025-10-22 20:25:57 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 14:21:07 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 14:21:07 [main] INFO  - Starting Execution for Test=> demoqa-automation-25
+=2025-10-31 14:21:11 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 14:21:15 [main] INFO  - Clicked on elements.
+=2025-10-31 14:21:16 [main] INFO  - Clicked on text box menu.
+=2025-10-31 14:21:16 [main] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 14:21:17 [main] INFO  - Enter a email: arifingmail.com
+=2025-10-31 14:21:17 [main] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 14:21:17 [main] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 14:21:18 [main] INFO  - Clicked on submit button.
+=2025-10-31 14:21:20 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 14:21:22 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 14:21:26 [main] INFO  - Clicked on elements.
+=2025-10-31 14:21:26 [main] INFO  - Clicked on text box menu.
+=2025-10-31 14:21:27 [main] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 14:21:27 [main] INFO  - Enter a email: arifin@gmail.com
+=2025-10-31 14:21:28 [main] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 14:21:28 [main] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 14:21:28 [main] INFO  - Clicked on submit button.
+=2025-10-31 14:21:29 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 14:21:31 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 14:21:35 [main] INFO  - Clicked on elements.
+=2025-10-31 14:21:36 [main] INFO  - Clicked on text box menu.
+=2025-10-31 14:21:38 [main] INFO  - Clicked on submit button.
+=2025-10-31 14:21:39 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 14:27:14 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 14:27:15 [main] INFO  - Starting Execution for Test=> demoqa-automation-25
+=2025-10-31 14:27:17 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 14:27:24 [main] INFO  - Clicked on elements.
+=2025-10-31 14:27:24 [main] INFO  - Clicked on text box menu.
+=2025-10-31 14:27:28 [main] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 14:27:28 [main] INFO  - Enter a email: arifin@gmail.com
+=2025-10-31 14:27:28 [main] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 14:27:28 [main] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 14:27:28 [main] INFO  - Clicked on submit button.
+=2025-10-31 14:27:29 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 14:47:55 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 14:47:55 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 14:47:57 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 14:48:03 [main] INFO  - Clicked on elements.
+=2025-10-31 14:48:03 [main] INFO  - Clicked on text box menu.
+=2025-10-31 14:48:06 [main] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 14:48:07 [main] INFO  - Enter a email: arifin@gmail.com
+=2025-10-31 14:48:07 [main] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 14:48:08 [main] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 14:48:08 [main] INFO  - Clicked on submit button.
+=2025-10-31 14:48:09 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 15:04:34 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-31 15:04:34 [TestNG-tests-1] INFO  - Starting Execution for Test => Regression Tests
+=2025-10-31 15:04:37 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:04:45 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:04:45 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddDataWithInvalidEmail
+=2025-10-31 15:04:45 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-31 15:04:47 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 15:04:49 [TestNG-tests-1] INFO  - Enter a email: arifingmail.com
+=2025-10-31 15:04:50 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 15:04:50 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 15:04:50 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-31 15:04:50 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddDataWithInvalidEmail
+=2025-10-31 15:04:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:04:52 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:04:56 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:04:56 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddValidData
+=2025-10-31 15:04:57 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-31 15:04:58 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-10-31 15:04:58 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-10-31 15:04:58 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-10-31 15:04:59 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-10-31 15:04:59 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-31 15:04:59 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddValidData
+=2025-10-31 15:04:59 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:05:01 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:05:05 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:05:05 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyFormValidations
+=2025-10-31 15:05:05 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-10-31 15:05:05 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-10-31 15:05:07 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyFormValidations
+=2025-10-31 15:05:07 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:19:23 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-31 15:19:23 [TestNG-tests-1] INFO  - Starting Execution for Test => Regression Tests
+=2025-10-31 15:19:26 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:19:29 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:19:29 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-31 15:19:29 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-31 15:19:30 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-31 15:19:30 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-10-31 15:19:30 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:19:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxMaximize
+=2025-10-31 15:19:36 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:19:38 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:19:41 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:19:41 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-31 15:19:42 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-31 15:19:42 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-31 15:19:43 [TestNG-tests-1] INFO  - Click on expand button successfully!
+=2025-10-31 15:19:43 [TestNG-tests-1] INFO  - Click on collapse button successfully!
+=2025-10-31 15:19:44 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxMinimize
+=2025-10-31 15:19:44 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:19:45 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:19:49 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:19:49 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-31 15:19:50 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-10-31 15:19:50 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-31 15:19:50 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-10-31 15:20:00 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxUnchecked
+=2025-10-31 15:20:00 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 15:24:20 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-31 15:24:20 [TestNG-tests-1] INFO  - Starting Execution for Test => Regression Tests
+=2025-10-31 15:24:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 15:24:27 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 15:24:27 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 15:24:28 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-31 15:24:28 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-10-31 15:24:28 [TestNG-tests-1] INFO  - Clicked on Yes radio button!
+=2025-10-31 15:24:29 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 15:24:29 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:25:48 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:25:48 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:25:52 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:25:56 [main] INFO  - Clicked on elements.
+=2025-10-31 16:25:56 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:25:57 [main] INFO  - Clicked on Add button!
+=2025-10-31 16:26:00 [main] INFO  - Enter First Name: QA
+=2025-10-31 16:26:00 [main] INFO  - Enter Last Name: QA
+=2025-10-31 16:26:00 [main] INFO  - Enter Email: QA
+=2025-10-31 16:26:00 [main] INFO  - Enter Age: QA
+=2025-10-31 16:26:00 [main] INFO  - Enter Salary: QA
+=2025-10-31 16:26:00 [main] INFO  - Enter Department: QA
+=2025-10-31 16:26:00 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:26:01 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:27:11 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:27:12 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:27:14 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:27:22 [main] INFO  - Clicked on elements.
+=2025-10-31 16:27:23 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:27:23 [main] INFO  - Clicked on Add button!
+=2025-10-31 16:27:25 [main] INFO  - Enter First Name: Nurul
+=2025-10-31 16:27:25 [main] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:27:25 [main] INFO  - Enter Email: nurularifingmail.com
+=2025-10-31 16:27:25 [main] INFO  - Enter Age: 26
+=2025-10-31 16:27:25 [main] INFO  - Enter Salary: 70000
+=2025-10-31 16:27:25 [main] INFO  - Enter Department: QA
+=2025-10-31 16:27:25 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:27:26 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:31:13 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:31:13 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:31:15 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:31:21 [main] INFO  - Clicked on elements.
+=2025-10-31 16:31:21 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:31:21 [main] INFO  - Clicked on edit button!
+=2025-10-31 16:31:22 [main] INFO  - Enter last name: Aripon
+=2025-10-31 16:31:23 [main] INFO  - Enter user email: aripon@gmail.com
+=2025-10-31 16:31:23 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:31:24 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:31:36 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:31:36 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:31:38 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:31:43 [main] INFO  - Clicked on elements.
+=2025-10-31 16:31:43 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:31:43 [main] INFO  - Clicked on edit button!
+=2025-10-31 16:31:45 [main] INFO  - Enter user email: aripongmail.com
+=2025-10-31 16:31:45 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:31:46 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:38:39 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:38:39 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:38:41 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:38:45 [main] INFO  - Clicked on elements.
+=2025-10-31 16:38:45 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:38:45 [main] INFO  - Clicked on Add button!
+=2025-10-31 16:38:47 [main] INFO  - Enter First Name: Nurul
+=2025-10-31 16:38:47 [main] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:38:47 [main] INFO  - Enter Email: nurularifin@gmail.com
+=2025-10-31 16:38:47 [main] INFO  - Enter Age: 26
+=2025-10-31 16:38:47 [main] INFO  - Enter Salary: 70000
+=2025-10-31 16:38:47 [main] INFO  - Enter Department: QA
+=2025-10-31 16:38:48 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:38:49 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:39:43 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:39:43 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:39:45 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:39:49 [main] INFO  - Clicked on elements.
+=2025-10-31 16:39:49 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:39:49 [main] INFO  - Clicked on Add button!
+=2025-10-31 16:39:51 [main] INFO  - Enter First Name: Nurul
+=2025-10-31 16:39:51 [main] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:39:51 [main] INFO  - Enter Email: nurularifingmail.com
+=2025-10-31 16:39:51 [main] INFO  - Enter Age: 26
+=2025-10-31 16:39:51 [main] INFO  - Enter Salary: 70000
+=2025-10-31 16:39:51 [main] INFO  - Enter Department: QA
+=2025-10-31 16:39:51 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:39:52 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:41:29 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:41:30 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:41:32 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:41:35 [main] INFO  - Clicked on elements.
+=2025-10-31 16:41:36 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:41:36 [main] INFO  - Clicked on Add button!
+=2025-10-31 16:41:38 [main] INFO  - Enter First Name: Nurul
+=2025-10-31 16:41:38 [main] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:41:38 [main] INFO  - Enter Email: nurularifingmail.com
+=2025-10-31 16:41:38 [main] INFO  - Enter Age: dasd
+=2025-10-31 16:41:38 [main] INFO  - Enter Salary: dasdsa
+=2025-10-31 16:41:38 [main] INFO  - Enter Department: QA
+=2025-10-31 16:41:38 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:41:39 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:52:02 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:52:02 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:52:05 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:52:10 [main] INFO  - Clicked on elements.
+=2025-10-31 16:52:11 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:52:13 [main] INFO  - Clicked on edit button!
+=2025-10-31 16:52:14 [main] INFO  - Enter user email: aripon@gmail.com
+=2025-10-31 16:52:14 [main] INFO  - Enter user age: dss
+=2025-10-31 16:52:15 [main] INFO  - Enter user salary: qwerty
+=2025-10-31 16:52:15 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:52:16 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:53:02 [main] INFO  - Starting Execution for Test Suite => Default Suite with Tag => 
+=2025-10-31 16:53:02 [main] INFO  - Starting Execution for Test => demoqa-automation-25
+=2025-10-31 16:53:04 [main] INFO  - Opening the browser - Chrome
+=2025-10-31 16:53:08 [main] INFO  - Clicked on elements.
+=2025-10-31 16:53:08 [main] INFO  - Clicked on the menu!
+=2025-10-31 16:53:09 [main] INFO  - Clicked on edit button!
+=2025-10-31 16:53:10 [main] INFO  - Enter user email: aripongmail.com
+=2025-10-31 16:53:10 [main] INFO  - Enter user age: dss
+=2025-10-31 16:53:11 [main] INFO  - Enter user salary: qwerty
+=2025-10-31 16:53:11 [main] INFO  - Clicked on submit button!
+=2025-10-31 16:53:12 [main] INFO  - Closing the browser - Chrome
+=2025-10-31 16:56:58 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-31 16:56:58 [TestNG-tests-1] INFO  - Starting Execution for Test => Regression Tests
+=2025-10-31 16:57:01 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:01 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 16:57:01 [TestNG-tests-1] INFO  - Test Skipped: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 16:57:01 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:03 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:03 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-31 16:57:03 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyAddData
+=2025-10-31 16:57:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:05 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:05 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddWithInvalidData
+=2025-10-31 16:57:05 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyAddWithInvalidData
+=2025-10-31 16:57:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:06 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:07 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-31 16:57:07 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyDeleteData
+=2025-10-31 16:57:07 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:08 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditWithInvalidData
+=2025-10-31 16:57:08 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyEditWithInvalidData
+=2025-10-31 16:57:09 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:10 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:10 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditWithValidData
+=2025-10-31 16:57:10 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyEditWithValidData
+=2025-10-31 16:57:11 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:12 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:12 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEmptyData
+=2025-10-31 16:57:12 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifyEmptyData
+=2025-10-31 16:57:12 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:14 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:14 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-31 16:57:14 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-31 16:57:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:57:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:57:16 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithValidData
+=2025-10-31 16:57:16 [TestNG-tests-1] INFO  - Test Skipped: WebTablesPageTest => verifySearchWithValidData
+=2025-10-31 16:57:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:58:20 [main] INFO  - Starting Execution for Test Suite => Demoqa_Regression_Suite with Tag => regression1
+=2025-10-31 16:58:21 [TestNG-tests-1] INFO  - Starting Execution for Test => Regression Tests
+=2025-10-31 16:58:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Clicked on Yes radio button!
+=2025-10-31 16:58:27 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonYesClicked
+=2025-10-31 16:58:28 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:58:29 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:58:37 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:58:37 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-10-31 16:58:37 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:58:39 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter Email: nurularifin@gmail.com
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter Age: 26
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter Salary: 70000
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-10-31 16:58:40 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-31 16:58:41 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-10-31 16:58:41 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:58:42 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:58:46 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:58:46 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddWithInvalidData
+=2025-10-31 16:58:46 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:58:46 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter Email: nurularifingmail.com
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter Age: dasd
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter Salary: dasdsa
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-31 16:58:49 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddWithInvalidData
+=2025-10-31 16:58:50 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:58:51 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:58:54 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:58:54 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyDeleteData
+=2025-10-31 16:58:55 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:58:56 [TestNG-tests-1] INFO  - Clicked on delete button!
+=2025-10-31 16:59:06 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyDeleteData
+=2025-10-31 16:59:06 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:59:07 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:59:12 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:59:12 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditWithInvalidData
+=2025-10-31 16:59:12 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:59:12 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-31 16:59:13 [TestNG-tests-1] INFO  - Enter user email: aripongmail.com
+=2025-10-31 16:59:14 [TestNG-tests-1] INFO  - Enter user age: dss
+=2025-10-31 16:59:14 [TestNG-tests-1] INFO  - Enter user salary: qwerty
+=2025-10-31 16:59:14 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-31 16:59:14 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyEditWithInvalidData
+=2025-10-31 16:59:15 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:59:16 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:59:20 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:59:20 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEditWithValidData
+=2025-10-31 16:59:20 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:59:20 [TestNG-tests-1] INFO  - Clicked on edit button!
+=2025-10-31 16:59:22 [TestNG-tests-1] INFO  - Enter last name: Aripon
+=2025-10-31 16:59:22 [TestNG-tests-1] INFO  - Enter user email: aripon@gmail.com
+=2025-10-31 16:59:22 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-31 16:59:23 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyEditWithValidData
+=2025-10-31 16:59:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:59:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:59:28 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:59:28 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyEmptyData
+=2025-10-31 16:59:28 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:59:29 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-10-31 16:59:29 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-10-31 16:59:30 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyEmptyData
+=2025-10-31 16:59:31 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:59:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:59:36 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:59:36 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-31 16:59:37 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:59:39 [TestNG-tests-1] INFO  - Enter keyword: vegadsads
+=2025-10-31 16:59:39 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifySearchWithInvalidData
+=2025-10-31 16:59:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-10-31 16:59:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-10-31 16:59:44 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-10-31 16:59:44 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifySearchWithValidData
+=2025-10-31 16:59:45 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-10-31 16:59:45 [TestNG-tests-1] INFO  - Enter keyword: vega
+=2025-10-31 16:59:45 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifySearchWithValidData
+=2025-10-31 16:59:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome

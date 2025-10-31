@@ -102,6 +102,11 @@ public class TextBoxPage extends BasePage {
     }
 
     // Page Actions
+    public boolean isEmailFieldErrorVisible(){
+        String classAttr = getUserEmail().getAttribute("class");
+        return classAttr != null && classAttr.contains("field-error");
+    }
+
     public boolean isMainTitleDisplay(){
         return getMainTitle().isDisplayed();
     }
