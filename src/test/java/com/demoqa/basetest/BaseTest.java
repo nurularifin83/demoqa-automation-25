@@ -3,10 +3,7 @@ package com.demoqa.basetest;
 import com.aventstack.extentreports.Status;
 import com.demoqa.base.BasePage;
 import com.demoqa.pages.HomePage;
-import com.demoqa.pages.elements.CheckBoxPage;
-import com.demoqa.pages.elements.RadioButtonPage;
-import com.demoqa.pages.elements.TextBoxPage;
-import com.demoqa.pages.elements.WebTables;
+import com.demoqa.pages.elements.*;
 import com.demoqa.reports.ExtentReportManager;
 import com.demoqa.testdatareaders.ExcelReader;
 import com.demoqa.utils.ConfigReader;
@@ -35,6 +32,7 @@ public class BaseTest {
     public CheckBoxPage checkBoxPage;
     public RadioButtonPage radioButtonPage;
     public WebTables webTables;
+    public ButtonsPage buttonsPage;
 
     public ConfigReader configReader;
     public ExcelReader excelReader;
@@ -111,6 +109,7 @@ public class BaseTest {
         textBoxPage = new TextBoxPage(getLocalDriver());
         radioButtonPage = new RadioButtonPage(getLocalDriver());
         webTables = new WebTables(getLocalDriver());
+        buttonsPage = new ButtonsPage(getLocalDriver());
 
         excelReader = new ExcelReader("./src/test/resources/test-data/"+configReader.getFieldsVerificationExcelName());
     }
