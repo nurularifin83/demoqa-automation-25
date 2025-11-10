@@ -1,8 +1,10 @@
 package com.demoqa.utils;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -25,6 +27,21 @@ public class CustomWait {
         }catch (TimeoutException e){
             System.err.println("Element is not visible after waiting : " + e.getMessage());
         }
+    }
+
+    public void waitForVisibility(By locator) {
+        try {
+            // Check if element exists first
+            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+            // Then wait for visibility
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        } catch (TimeoutException e) {
+            System.err.println("Element located by " + locator + " is not visible after waiting: " + e.getMessage());
+        }
+    }
+
+    public void waitUntilCondition(ExpectedCondition<?> condition) {
+        wait.until(condition);
     }
 
     //Wait for an element to be clickable

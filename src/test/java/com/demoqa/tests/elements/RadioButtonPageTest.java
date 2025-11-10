@@ -12,7 +12,7 @@ public class RadioButtonPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"smoke","regressio1n"}, description = "Verify Radio button Impressive is selected")
+    @Test(groups = {"smoke","regression"}, description = "Verify Radio button Impressive is selected")
     public void verifyRadioButtonImpressiveClicked(){
         radioButtonPage.clickOnRadioMenu();
         Assert.assertTrue(radioButtonPage.isMainTitleDisplay(), "The page not opened");
@@ -20,7 +20,7 @@ public class RadioButtonPageTest extends BaseTest {
         Assert.assertTrue(radioButtonPage.isTextDisplay(), "No text is appear");
     }
 
-    @Test(groups = {"regression1"}, description = "Verify Radio button Yes is selected")
+    @Test(groups = {"regression"}, description = "Verify Radio button Yes is selected")
     public void verifyRadioButtonYesClicked(){
         radioButtonPage.clickOnRadioMenu();
         radioButtonPage.clickOnImpressiveRadioButton();

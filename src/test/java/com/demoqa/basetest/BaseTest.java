@@ -33,6 +33,7 @@ public class BaseTest {
     public RadioButtonPage radioButtonPage;
     public WebTables webTables;
     public ButtonsPage buttonsPage;
+    public LinksPage linksPage;
 
     public ConfigReader configReader;
     public ExcelReader excelReader;
@@ -110,6 +111,7 @@ public class BaseTest {
         radioButtonPage = new RadioButtonPage(getLocalDriver());
         webTables = new WebTables(getLocalDriver());
         buttonsPage = new ButtonsPage(getLocalDriver());
+        linksPage = new LinksPage(getLocalDriver());
 
         excelReader = new ExcelReader("./src/test/resources/test-data/"+configReader.getFieldsVerificationExcelName());
     }

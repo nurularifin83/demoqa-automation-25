@@ -12,10 +12,25 @@ public class ButtonsPageTest extends BaseTest {
         homePage.clickOnElements();
     }
 
-    @Test(groups = {"smoke"}, description = "Verify page is opened and button working")
+    @Test(groups = {"smoke","regression"}, description = "Verify page is opened and button working")
     public void verifyDoubleClickButton(){
         buttonsPage.clickOnButtonsMenu();
         buttonsPage.doubleClick();
         Assert.assertTrue(buttonsPage.isDoubleClickMessageAppear(), "Error, message not appear");
     }
+
+    @Test(groups = {"regression"}, description = "Verify right click is successfully")
+    public void verifyRightClick(){
+        buttonsPage.clickOnButtonsMenu();
+        buttonsPage.rightClick();
+        Assert.assertTrue(buttonsPage.isRightClickMessageAppear(), "Error, message not appear");
+    }
+
+    @Test(groups = {"regression"}, description = "Verify click me is successfully")
+    public void verifyClickMe(){
+        buttonsPage.clickOnButtonsMenu();
+        buttonsPage.clickMe();
+        Assert.assertTrue(buttonsPage.isClickMeMessageAppear(), "Error, message not appear");
+    }
+
 }

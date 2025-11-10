@@ -2,6 +2,7 @@ package com.demoqa.pages.elements;
 
 import com.demoqa.base.BasePage;
 import com.demoqa.utils.JavaScriptUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -31,16 +32,52 @@ public class ButtonsPage extends BasePage {
     @FindBy(xpath = "//p[@id='doubleClickMessage']")
     private WebElement doubleClickMessage;
 
+    @FindBy(xpath = "//button[@id='rightClickBtn']")
+    private WebElement rightClickBtn;
+
+    @FindBy(xpath = "//p[@id='rightClickMessage']")
+    private WebElement rightClickMessage;
+
+    @FindBy(xpath = "//button[text()='Click Me']")
+    private WebElement clickMe;
+
+    @FindBy(xpath = "//p[@id='dynamicClickMessage']")
+    private WebElement dynamicClickMessage;
 
     // Getters
+    private WebElement getDynamicClickMessage(){
+        By locator = By.xpath("//p[@id='dynamicClickMessage']");
+        customWait.waitForVisibility(locator);
+        return driver.findElement(locator);
+    }
+
+    private WebElement getClickMe(){
+        customWait.waitForVisibilityOfElement(clickMe);
+        return clickMe;
+    }
+
+    private WebElement getRightClickMessage(){
+        By locator = By.xpath("//p[@id='rightClickMessage']");
+        customWait.waitForVisibility(locator);
+        return driver.findElement(locator);
+    }
+
+    private WebElement getRightClickBtn(){
+        By locator = By.xpath("//button[@id='rightClickBtn']");
+        customWait.waitForVisibility(locator);
+        return driver.findElement(locator);
+    }
+
     private WebElement getDoubleClickMessage(){
-        customWait.waitForVisibilityOfElement(doubleClickMessage);
-        return doubleClickMessage;
+        By locator = By.xpath("//p[@id='doubleClickMessage']");
+        customWait.waitForVisibility(locator);
+        return driver.findElement(locator);
     }
 
     private WebElement getDoubleClickBtn(){
-       customWait.waitForVisibilityOfElement(doubleClickBtn);
-       return doubleClickBtn;
+        By locator = By.xpath("//button[@id='doubleClickBtn']");
+        customWait.waitForVisibility(locator);
+        return driver.findElement(locator);
     }
 
     private WebElement getButtonsMenu(){
@@ -49,15 +86,38 @@ public class ButtonsPage extends BasePage {
     }
 
     // Actions
-    public boolean isDoubleClickMessageAppear(){
+    public boolean isClickMeMessageAppear(){
+        return getDynamicClickMessage().isDisplayed();
+    }
+
+    public void clickMe(){
         try {
-            String message = getDoubleClickMessage().getText();
-            LOGGER.info("Double click message text: " + message);
-            return message.equals("You have done a double click");
-        } catch (Exception e) {
-            LOGGER.error("Failed to verify double click message", e);
-            return false;
+            getClickMe().click();
+            LOGGER.info("Successfully performed click me.");
+        }catch (Exception e){
+            LOGGER.error("Failed to perform click me", e);
+            throw e;
         }
+    }
+
+    public boolean isRightClickMessageAppear(){
+        return getRightClickMessage().isDisplayed();
+    }
+
+    public void rightClick(){
+        try{
+            WebElement button = getRightClickBtn();
+            Actions actions = new Actions(driver);
+            actions.contextClick(button).perform();
+            LOGGER.info("Successfully performed right click on the button.");
+        }catch (Exception e){
+            LOGGER.error("Failed to perform right click", e);
+            throw e;
+        }
+    }
+
+    public boolean isDoubleClickMessageAppear(){
+        return getDoubleClickMessage().isDisplayed();
     }
 
     public void doubleClick(){
