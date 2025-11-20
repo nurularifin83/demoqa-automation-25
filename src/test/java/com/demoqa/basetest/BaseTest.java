@@ -34,6 +34,7 @@ public class BaseTest {
     public WebTables webTables;
     public ButtonsPage buttonsPage;
     public LinksPage linksPage;
+    public BrokenLinksPage brokenLinksPage;
 
     public ConfigReader configReader;
     public ExcelReader excelReader;
@@ -112,6 +113,7 @@ public class BaseTest {
         webTables = new WebTables(getLocalDriver());
         buttonsPage = new ButtonsPage(getLocalDriver());
         linksPage = new LinksPage(getLocalDriver());
+        brokenLinksPage = new BrokenLinksPage(getLocalDriver());
 
         excelReader = new ExcelReader("./src/test/resources/test-data/"+configReader.getFieldsVerificationExcelName());
     }

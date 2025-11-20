@@ -5555,3 +5555,313 @@ Session ID: a20e290b5a2110bc3542d29ad042a287
 =2025-11-10 20:00:15 [TestNG-tests-1] INFO  - Click on Unauthorized link successfully
 =2025-11-10 20:00:15 [TestNG-tests-1] INFO  - Test Successful: LinksPageTest => verifyClickOnUnauthorizedLink
 =2025-11-10 20:00:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:31:31 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-11-20 23:31:31 [TestNG-tests-1] INFO  - Starting Execution for Test => Smoke Tests
+=2025-11-20 23:31:39 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:31:42 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:31:42 [TestNG-tests-1] INFO  - Started Test: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-20 23:31:43 [TestNG-tests-1] INFO  - Clicked on buttons menu
+=2025-11-20 23:31:44 [TestNG-tests-1] INFO  - Clicked on double click button
+=2025-11-20 23:31:44 [TestNG-tests-1] INFO  - Test Successful: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-20 23:31:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:31:46 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:31:53 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:31:53 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-20 23:31:53 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-11-20 23:31:54 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-11-20 23:31:54 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-20 23:31:54 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:31:56 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:32:01 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:32:01 [TestNG-tests-1] INFO  - Started Test: LinksPageTest => verifyClickOnHome
+=2025-11-20 23:32:01 [TestNG-tests-1] INFO  - Click on Links menu successfully
+=2025-11-20 23:32:01 [TestNG-tests-1] INFO  - Click on Home link successfully
+=2025-11-20 23:32:03 [TestNG-tests-1] INFO  - Test Successful: LinksPageTest => verifyClickOnHome
+=2025-11-20 23:32:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:32:05 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:32:11 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:32:11 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-20 23:32:11 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-11-20 23:32:13 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-11-20 23:32:13 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-20 23:32:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:32:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:32:21 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:32:21 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddValidData
+=2025-11-20 23:32:21 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-11-20 23:32:22 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddValidData
+=2025-11-20 23:32:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-20 23:32:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-20 23:32:34 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-20 23:32:34 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-11-20 23:32:35 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-11-20 23:32:35 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter Email: nurularifin@gmail.com
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter Age: 26
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter Salary: 70000
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-11-20 23:32:37 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-11-20 23:32:38 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:01:25 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-11-21 00:01:26 [TestNG-tests-1] INFO  - Starting Execution for Test => Smoke Tests
+=2025-11-21 00:01:28 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:01:35 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:01:35 [TestNG-tests-1] INFO  - Started Test: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:01:45 [TestNG-tests-1] INFO  - Test Skipped: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:01:46 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:01:47 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:01:53 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:01:53 [TestNG-tests-1] INFO  - Started Test: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:02:03 [TestNG-tests-1] INFO  - Test Failed: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:02:04 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:02:05 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:02:10 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:02:10 [TestNG-tests-1] INFO  - Started Test: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:02:10 [TestNG-tests-1] INFO  - Clicked on buttons menu
+=2025-11-21 00:02:10 [TestNG-tests-1] INFO  - Clicked on double click button
+=2025-11-21 00:02:21 [TestNG-tests-1] INFO  - Test Skipped: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:02:21 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:02:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:02:27 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:02:27 [TestNG-tests-1] INFO  - Started Test: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:02:28 [TestNG-tests-1] INFO  - Clicked on buttons menu
+=2025-11-21 00:02:29 [TestNG-tests-1] INFO  - Clicked on double click button
+=2025-11-21 00:02:29 [TestNG-tests-1] INFO  - Test Successful: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:02:29 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:02:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:02:38 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:02:38 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:02:38 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-11-21 00:02:39 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-11-21 00:02:39 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:02:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:02:42 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:02:47 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:02:47 [TestNG-tests-1] INFO  - Started Test: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:02:47 [TestNG-tests-1] INFO  - Click on Links menu successfully
+=2025-11-21 00:02:50 [TestNG-tests-1] INFO  - Click on Home link successfully
+=2025-11-21 00:02:50 [TestNG-tests-1] INFO  - Test Successful: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:02:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:02:53 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:02:58 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:02:58 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:02:59 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-11-21 00:03:01 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-11-21 00:03:02 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:03:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:03:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:03:16 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:03:16 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:03:16 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-11-21 00:03:18 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-11-21 00:03:18 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-11-21 00:03:20 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-11-21 00:03:20 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-11-21 00:03:20 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-11-21 00:03:20 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:03:21 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:03:22 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:03:28 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:03:28 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-11-21 00:03:28 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-11-21 00:03:29 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter Email: nurularifin@gmail.com
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter Age: 26
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter Salary: 70000
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-11-21 00:03:32 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:00 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-11-21 00:06:01 [TestNG-tests-1] INFO  - Starting Execution for Test => Smoke Tests
+=2025-11-21 00:06:03 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:07 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:06:07 [TestNG-tests-1] INFO  - Started Test: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:06:07 [TestNG-tests-1] INFO  - Clicked on the Broken Links menu.
+=2025-11-21 00:06:07 [TestNG-tests-1] INFO  - Test Successful: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:06:08 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:09 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:13 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:06:13 [TestNG-tests-1] INFO  - Started Test: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:06:14 [TestNG-tests-1] INFO  - Clicked on buttons menu
+=2025-11-21 00:06:14 [TestNG-tests-1] INFO  - Clicked on double click button
+=2025-11-21 00:06:15 [TestNG-tests-1] INFO  - Test Successful: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:06:15 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:17 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:20 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:06:20 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:06:21 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-11-21 00:06:21 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-11-21 00:06:22 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:06:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:35 [TestNG-tests-1] ERROR - Failed to click on elements.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='card-body']//h5[text()='Elements']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [715a208cb11a5a889089c86491a3c2bf, findElement {value=//div[@class='card-body']//h5[text()='Elements'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60714}, goog:processID: 11128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60714/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 715a208cb11a5a889089c86491a3c2bf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
+	at com.demoqa.utils.JavaScriptUtils.scrollToElement(JavaScriptUtils.java:28)
+	at com.demoqa.pages.HomePage.clickOnElements(HomePage.java:35)
+	at com.demoqa.tests.elements.LinksPageTest.setUpPage(LinksPageTest.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+=2025-11-21 00:06:35 [TestNG-tests-1] INFO  - Started Test: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:06:35 [TestNG-tests-1] INFO  - Test Skipped: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:06:35 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:36 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:41 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:06:41 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:06:41 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-11-21 00:06:41 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-11-21 00:06:42 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:06:42 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:43 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:06:48 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:06:48 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:06:49 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-11-21 00:06:49 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-11-21 00:06:50 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-11-21 00:06:50 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-11-21 00:06:50 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-11-21 00:06:51 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-11-21 00:06:51 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:06:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:06:52 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:07:04 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:07:04 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-11-21 00:07:04 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-11-21 00:07:05 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter Email: nurularifin@gmail.com
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter Age: 26
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter Salary: 70000
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-11-21 00:07:07 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-11-21 00:07:08 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:12 [main] INFO  - Starting Execution for Test Suite => Demoqa_Smoke_Suite with Tag => smoke
+=2025-11-21 00:08:13 [TestNG-tests-1] INFO  - Starting Execution for Test => Smoke Tests
+=2025-11-21 00:08:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:08:19 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:08:19 [TestNG-tests-1] INFO  - Started Test: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:08:19 [TestNG-tests-1] INFO  - Clicked on the Broken Links menu.
+=2025-11-21 00:08:22 [TestNG-tests-1] INFO  - Test Successful: BrokenLinksTest => verifyValidImage
+=2025-11-21 00:08:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:08:29 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:08:29 [TestNG-tests-1] INFO  - Started Test: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:08:29 [TestNG-tests-1] INFO  - Clicked on buttons menu
+=2025-11-21 00:08:30 [TestNG-tests-1] INFO  - Clicked on double click button
+=2025-11-21 00:08:31 [TestNG-tests-1] INFO  - Test Successful: ButtonsPageTest => verifyDoubleClickButton
+=2025-11-21 00:08:31 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:08:37 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:08:37 [TestNG-tests-1] INFO  - Started Test: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:08:37 [TestNG-tests-1] INFO  - Clicked on checkbox menu!
+=2025-11-21 00:08:38 [TestNG-tests-1] INFO  - Clicked on checkbox Home!
+=2025-11-21 00:08:39 [TestNG-tests-1] INFO  - Test Successful: CheckBoxPageTest => verifyCheckboxChecked
+=2025-11-21 00:08:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:40 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:08:44 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:08:44 [TestNG-tests-1] INFO  - Started Test: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:08:45 [TestNG-tests-1] INFO  - Click on Links menu successfully
+=2025-11-21 00:08:46 [TestNG-tests-1] INFO  - Click on Home link successfully
+=2025-11-21 00:08:49 [TestNG-tests-1] INFO  - Test Successful: LinksPageTest => verifyClickOnHome
+=2025-11-21 00:08:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:52 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:08:56 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:08:56 [TestNG-tests-1] INFO  - Started Test: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:08:57 [TestNG-tests-1] INFO  - Clicked on radio menu!
+=2025-11-21 00:08:57 [TestNG-tests-1] INFO  - Clicked on Impressive radio button!
+=2025-11-21 00:08:57 [TestNG-tests-1] INFO  - Test Successful: RadioButtonPageTest => verifyRadioButtonImpressiveClicked
+=2025-11-21 00:08:58 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:08:59 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:09:08 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:09:08 [TestNG-tests-1] INFO  - Started Test: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:09:08 [TestNG-tests-1] INFO  - Clicked on text box menu.
+=2025-11-21 00:09:08 [TestNG-tests-1] INFO  - Enter a username: Nurul Arifin
+=2025-11-21 00:09:09 [TestNG-tests-1] INFO  - Enter a email: arifin@gmail.com
+=2025-11-21 00:09:09 [TestNG-tests-1] INFO  - Enter a current address: Dsn. Ujung Blang, Ajee pagar air.
+=2025-11-21 00:09:10 [TestNG-tests-1] INFO  - Enter a permanent address: Jl. Kapten Yusuf No. 16
+=2025-11-21 00:09:10 [TestNG-tests-1] INFO  - Clicked on submit button.
+=2025-11-21 00:09:10 [TestNG-tests-1] INFO  - Test Successful: TextBoxPageTest => verifyAddValidData
+=2025-11-21 00:09:10 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-11-21 00:09:12 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-11-21 00:09:19 [TestNG-tests-1] INFO  - Clicked on elements.
+=2025-11-21 00:09:19 [TestNG-tests-1] INFO  - Started Test: WebTablesPageTest => verifyAddData
+=2025-11-21 00:09:19 [TestNG-tests-1] INFO  - Clicked on the menu!
+=2025-11-21 00:09:19 [TestNG-tests-1] INFO  - Clicked on Add button!
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter First Name: Nurul
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter Last Name: Arifin
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter Email: nurularifin@gmail.com
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter Age: 26
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter Salary: 70000
+=2025-11-21 00:09:21 [TestNG-tests-1] INFO  - Enter Department: QA
+=2025-11-21 00:09:22 [TestNG-tests-1] INFO  - Clicked on submit button!
+=2025-11-21 00:09:22 [TestNG-tests-1] INFO  - Test Successful: WebTablesPageTest => verifyAddData
+=2025-11-21 00:09:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
